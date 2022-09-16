@@ -4,19 +4,19 @@ a {
 }
 
 .txt-primary {
-  color: #FFD653 !important;
+  color: #0065AA !important;
 }
 
 .txt-secondary {
-  color: #1E3A58 !important;
+  color: #FF7A47 !important;
 }
 
 .bg-secondary {
-  background: #1E3A58 !important;
+  background: #FF7A47 !important;
 }
 
 .footer-bg {
-  background: url("../images/footer-bg.png");
+  background: #EDEDED;
   background-size: 100% 100%;
 }
 
@@ -34,7 +34,7 @@ html {
   content: "";
   width: 60px;
   height: 4px;
-  background-color: #FFD653 !important;
+  background-color: #0065AA !important;
   bottom: -10px;
   left: 0;
 }
@@ -50,7 +50,7 @@ html {
   font-size: 14px;
 }
 .newsletter .go {
-  background-color: #1E3A58 !important;
+  background-color: #FF7A47 !important;
   border-radius: 0;
   height: 36px;
   border: 0;
@@ -61,7 +61,7 @@ html {
   color: #fff;
 }
 .newsletter .go:hover {
-  color: #FFD653 !important;
+  color: #0065AA !important;
 }
 
 .card-style {
@@ -77,7 +77,7 @@ html {
 .card-style .content .title {
   font-size: 18px;
   margin: 12px 0 7px;
-  color: #1E3A58 !important;
+  color: #FF7A47 !important;
   text-transform: capitalize;
   font-family: "poppins-medium";
 }
@@ -98,8 +98,8 @@ html {
   height: 35px;
   width: 35px;
   border-radius: 4px;
-  color: #FFD653 !important;
-  background-color: #1E3A58 !important;
+  color: #0065AA !important;
+  background-color: #FF7A47 !important;
 }
 .card-style .content .social a .iconify {
   font-size: 17px;
@@ -131,7 +131,7 @@ body {
 }
 
 .topbar {
-  background: #1E3A58 !important;
+  background: #FF7A47 !important;
 }
 .topbar .inner {
   display: flex;
@@ -144,9 +144,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFD653 !important;
+  color: #0065AA !important;
   height: 100%;
-  color: #1E3A58 !important;
+  color: #FF7A47 !important;
   background: #ffd03a;
   margin-right: 2px;
 }
@@ -165,7 +165,7 @@ body {
 .siteHeader .navCustom .nav-item .nav-link {
   margin-right: 0;
   font-size: 15px;
-  color: #1c1b1b;
+  color: #0065AA !important;
   padding: 8px 12px;
   border-radius: 4px;
   font-family: "poppins-regular";
@@ -177,17 +177,17 @@ body {
   }
 }
 .siteHeader .navCustom .nav-item .nav-link:hover {
-  color: #ffb80a;
+  color: #FF7A47 !important;
 }
 .siteHeader .navCustom .nav-item .nav-link.active {
-  color: #FFD653 !important;
+  color: #FF7A47 !important;
 }
 .siteHeader .navCustom .nav-item .dropdown-item:hover {
-  background-color: #FFD653 !important;
+  background-color: #0065AA !important;
   color: #fff;
 }
 .siteHeader .navCustom .nav-item .dropdown-item.active {
-  background-color: #FFD653 !important;
+  background-color: #0065AA !important;
   color: #fff;
 }
 
@@ -213,13 +213,13 @@ body {
   }
 }
 .default.partner h5 {
-  color: #1E3A58 !important;
+  color: #FF7A47 !important;
   text-transform: uppercase;
   font-family: "poppins-bold";
   padding-left: 15px;
 }
 .default.partner h5:hover {
-  color: #FFD653 !important;
+  color: #0065AA !important;
 }
 
 .gelleryBox {
@@ -266,19 +266,19 @@ body {
 .slick-next {
   height: 35px !important;
   width: 35px !important;
-  background: #FFD653 !important;
+  background: #0065AA !important;
 }
 .slick-next:hover {
-  background: #1E3A58 !important;
+  background: #FF7A47 !important;
 }
 
 .slick-prev {
   height: 35px !important;
   width: 35px !important;
-  background: #FFD653 !important;
+  background: #0065AA !important;
 }
 .slick-prev:hover {
-  background: #1E3A58 !important;
+  background: #FF7A47 !important;
 }
 
 .slick-dots li button {
@@ -289,7 +289,7 @@ body {
 }
 
 .slick-dots li.slick-active button {
-  background: #FFD653 !important;
+  background: #0065AA !important;
 }
 
 .carousel-indicators {
@@ -421,39 +421,6 @@ footer .nav-item a:hover {
   font-weight: 400;
 }
 
-.banner {
-  position: relative;
-  height: 250px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: capitalize;
-}
-.banner .title {
-  display: none;
-  font-size: 62px;
-  color: #1f3ac8;
-  font-weight: bold;
-  font-family: "poppins-bold";
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  text-shadow: 0px 0px 9px #e1ecff;
-}
-@media (max-width: 768px) {
-  .banner .title {
-    font-size: 42px;
-  }
-}
-.banner img {
-  pointer-events: none;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-}
-
 @media (max-width: 768px) {
   .postTitle {
     font-size: 16px;
@@ -520,7 +487,7 @@ footer .nav-item a:hover {
 }
 .blog .blog-images .box-date {
   position: absolute;
-  background: #FFD653 !important;
+  background: #0065AA !important;
   z-index: 2;
   bottom: 0;
   left: 0;
@@ -599,7 +566,7 @@ footer .nav-item a:hover {
   text-transform: uppercase;
   font-weight: 400;
   color: #ffffff;
-  background: #1E3A58 !important;
+  background: #FF7A47 !important;
   padding: 7px 18px;
   border-radius: 4px;
   transition: all 0.2s ease-in;
@@ -607,16 +574,16 @@ footer .nav-item a:hover {
   font-family: "poppins-medium";
 }
 .btn-theme:hover {
-  background: #1E3A58 !important;
-  border-color: #FFD653 !important;
-  color: #FFD653 !important;
+  background: #FF7A47 !important;
+  border-color: #0065AA !important;
+  color: #0065AA !important;
 }
 
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #1E3A58 !important;
-  border-color: #1E3A58 !important;
+  background-color: #FF7A47 !important;
+  border-color: #FF7A47 !important;
 }
 
 .addressLocation {
@@ -718,7 +685,7 @@ footer .nav-item a:hover {
 
 .connect {
   padding: 60px 0;
-  background-color: #1E3A58 !important;
+  background-color: #FF7A47 !important;
 }
 
 #imageGallery {
@@ -786,7 +753,7 @@ footer .nav-item a:hover {
 }
 .blog .blog-images .box-date {
   position: absolute;
-  background: #FFD653 !important;
+  background: #0065AA !important;
   z-index: 2;
   border-radius: 0 10px 0 0;
   bottom: 0;
@@ -865,7 +832,7 @@ footer .nav-item a:hover {
   margin-right: 5px;
 }
 .blog-aside .categori .categori-list li a:hover {
-  color: #FFD653 !important;
+  color: #0065AA !important;
 }
 .blog-aside .recent-post-widget {
   border: 1px solid #e5e9f4;
@@ -923,7 +890,7 @@ footer .nav-item a:hover {
   transition: all 0.3s ease-in;
 }
 .blog-aside .recent-post-widget .post-list li .post .post-details a .post-title:hover {
-  color: #1E3A58 !important;
+  color: #FF7A47 !important;
 }
 .blog-aside .recent-post-widget .post-list li .post .post-details .date {
   color: #7b8698;
@@ -978,7 +945,7 @@ footer .nav-item a:hover {
   font-size: 13px;
 }
 .blog-details .blog-content .content .post-meta li a:hover {
-  color: #FFD653 !important;
+  color: #0065AA !important;
 }
 .blog-details .blog-content .content .title {
   font-size: 20px;
@@ -1028,7 +995,7 @@ footer .nav-item a:hover {
   display: inline-block;
   color: #fff;
   margin-left: 2px;
-  background: #FFD653 !important;
+  background: #0065AA !important;
   transition: all 0.3s ease-in;
 }
 .blog-details .blog-content .content .tag-social-link .social-links li a:hover {
@@ -1044,4 +1011,62 @@ footer .nav-item a:hover {
 }
 .team .card:hover {
   transform: translateY(-10px);
+}
+
+.banner {
+  padding: 90px 0;
+  background: url("../images/Happy couple of tourists with backpacks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 31% 85%;
+}
+.banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: linear-gradient(179deg, rgba(79, 205, 255, 0.5607843137) 60%, #ededed);
+}
+.banner h1 {
+  text-align: center;
+  font-family: "poppins-bold";
+  color: #0065AA !important;
+}
+.banner .inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner .inner .searchPanel {
+  margin: 45px 0px 0 0;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.6509803922);
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+@media (max-width: 768px) {
+  .banner .inner .searchPanel {
+    flex-direction: column;
+  }
+}
+.banner .inner .searchPanel .items {
+  flex: 1;
+  margin: 6px 0;
+}
+.banner .inner .searchPanel .items:nth-last-child(1) {
+  flex: inherit;
+}
+.banner .inner .searchPanel .items:nth-last-child(2) {
+  flex: inherit;
 }/*# sourceMappingURL=app.css.map */

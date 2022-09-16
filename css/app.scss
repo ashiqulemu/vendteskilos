@@ -1,7 +1,7 @@
 // variables
 
-$primary: #FFD653 !important;
-$secondary: #1E3A58 !important;
+$primary: #0065AA !important;
+$secondary: #FF7A47 !important;
 $txt: #585858;
 $white: #fff;
 
@@ -25,7 +25,7 @@ a {
 
 
 .footer-bg {
-    background: url('../images/footer-bg.png');
+    background: #EDEDED;
     background-size: 100% 100%;
 }
 
@@ -209,7 +209,7 @@ body {
             .nav-link {
                 margin-right: 0;
                 font-size: 15px;
-                color: #1c1b1b;
+                color: $primary;
                 padding: 8px 12px;
                 border-radius: 4px;
                 font-family: 'poppins-regular';
@@ -220,11 +220,11 @@ body {
                 }
 
                 &:hover {
-                    color: darken(#FFCE56, 15%);
+                    color: $secondary;
                 }
 
                 &.active {
-                    color: $primary;
+                    color: $secondary;
                 }
             }
 
@@ -455,20 +455,25 @@ body {
 
 .governance {
     .row {
-        img{
+        img {
             padding: 10px;
-        };
+        }
+
+        ;
+
         &:nth-child(even) {
             background-color: #F1F1F1;
         }
-        @media(max-width:768px){
+
+        @media(max-width:768px) {
             text-align: center;
-             
+
         }
-        p{
+
+        p {
             margin: 0;
-            
-            @media(max-width:768px){
+
+            @media(max-width:768px) {
                 text-align: center;
                 width: 100%;
             }
@@ -535,41 +540,7 @@ footer {
 }
 
 
-.banner {
-    position: relative;
-    height: 250px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: capitalize;
-
-    .title {
-        display: none;
-        font-size: 62px;
-        color: #1f3ac8;
-        font-weight: bold;
-        font-family: 'poppins-bold';
-        text-align: center;
-        position: relative;
-        z-index: 1;
-        text-shadow: 0px 0px 9px #e1ecff;
-
-        @media(max-width:768px) {
-            font-size: 42px;
-        }
-    }
-
-    img {
-        pointer-events: none;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        z-index: 0;
-    }
-
-
-}
+ 
 
 .postTitle {
     @media(max-width:768px) {
@@ -1339,6 +1310,68 @@ footer {
 
         &:hover {
             transform: translateY(-10px);
+        }
+    }
+}
+
+
+// for this site css
+
+
+.banner {
+    padding: 90px 0;
+    background: url('../images/Happy\ couple\ of\ tourists\ with\ backpacks.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    position: relative;
+    background-position: 31% 85%;
+    &:after{
+        content: '';
+        position: absolute;
+        top :0;
+        left :0;
+        right:0;
+        bottom:0;
+        z-index: 0;
+        background:linear-gradient(179deg, #4fcdff8f 60%, #ededed);
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "poppins-bold"; 
+        color: $primary;
+    }
+
+    .inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .searchPanel {
+            margin: 45px 0px 0 0;
+            -moz-column-gap: 20px;
+            column-gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 30px;
+            background: #ffffffa6;
+            border-radius: 8px;
+            backdrop-filter: blur(3px);
+            @media(max-width:768px){
+                flex-direction: column;
+            }
+            .items {
+                flex: 1;
+                margin: 6px 0;
+                &:nth-last-child(1){
+                    flex: inherit;
+                }
+                &:nth-last-child(2){
+                    flex: inherit;
+                }
+            }
         }
     }
 }
