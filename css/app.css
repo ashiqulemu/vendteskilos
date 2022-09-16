@@ -1035,6 +1035,7 @@ footer .nav-item a:hover {
   text-align: center;
   font-family: "poppins-bold";
   color: #0065AA !important;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 .banner .inner {
   display: flex;
