@@ -126,7 +126,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: "poppins-light";
+  font-family: "poppins-regular";
   background-color: #F7F8FE;
 }
 
@@ -1064,6 +1064,10 @@ footer .nav-item a:hover {
 .banner .inner .searchPanel .items {
   flex: 1;
   margin: 6px 0;
+}
+.banner .inner .searchPanel .items label {
+  color: #0065AA !important;
+  margin-bottom: 5px;
 }
 .banner .inner .searchPanel .items:nth-last-child(1) {
   flex: inherit;

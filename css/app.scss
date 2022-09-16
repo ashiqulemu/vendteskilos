@@ -154,7 +154,7 @@ html {
 
 body {
     overflow-x: hidden;
-    font-family: 'poppins-light';
+    font-family: "poppins-regular";
     background-color: #F7F8FE;
 }
 
@@ -1366,6 +1366,10 @@ footer {
             .items {
                 flex: 1;
                 margin: 6px 0;
+                label{
+                    color: $primary;
+                    margin-bottom: 5px;
+                }
                 &:nth-last-child(1){
                     flex: inherit;
                 }
