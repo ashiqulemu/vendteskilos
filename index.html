@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link href="./css/select2.min.css" rel="stylesheet" />
 </head>
 <!-- oncontextmenu="return false;" -->
 
@@ -82,13 +82,13 @@
     </section>
 
     <section class="banner">
-        <div class="container position-relative" style="z-index: 1;" > 
+        <div class="container position-relative" style="z-index: 1;">
             <div class="inner">
                 <h1>Un vaste choix de trajets à petits prix</h1>
                 <div class="searchPanel ">
                     <div class="items">
                         <label for="">Départ</label>
-                        <select id=" "   class=" form-control">
+                        <select id=" " class=" form-control">
                             <option>Java</option>
                             <option>Javascript</option>
                             <option>PHP</option>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="items">
                         <label for="">Destination</label>
-                        <select id=""  class=" form-control">
+                        <select id="" class=" form-control">
                             <option>Java</option>
                             <option>Javascript</option>
                             <option>PHP</option>
@@ -106,20 +106,562 @@
                     </div>
                     <div class="items">
                         <label for="">Aujourd’hui</label>
-                       <input type="date" name="" class="form-control" id="">
+                        <input type="date" name="" class="form-control" id="">
                     </div>
                     <div class="items">
                         <label for="">Passager</label>
-                       <input type="number" name="" min="1" class="form-control" id="">
+                        <input type="number" name="" min="1" class="form-control" id="">
                     </div>
                     <div class="items">
                         <label for="" class="invisible d-block">Passager</label>
                         <button class="btn btn-theme">Search</button>
                     </div>
-                     
+
                 </div>
             </div>
 
+        </div>
+    </section>
+
+    <section class="discover default">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="box px-3">
+                        <div class="icon display-6 txt-theme ">
+                            <iconify-icon icon="octicon:database-24"></iconify-icon>
+                        </div>
+                        <div class="desc">
+                            <h5>Vos trajets préférés à petits prix</h5>
+                            <p class="txt-theme">Où que vous alliez, en bus ou en covoiturage, trouvez le trajet idéal
+                                parmi notre large choix de destinations à petits prix.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box px-3">
+                        <div class="icon display-6 txt-theme ">
+                            <iconify-icon icon="iconoir:user-square-alt"></iconify-icon>
+                        </div>
+                        <div class="desc">
+                            <h5>Voyagez en toute confiance</h5>
+                            <p class="txt-theme">Nous prenons le temps qu’il faut pour connaître nos membres et nos
+                                compagnies de bus partenaires. Nous vérifions les avis, les profils et les pièces
+                                d’identité. Vous savez donc avec qui vous allez voyager pour réserver en toute confiance
+                                sur notre plateforme sécurisée.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box px-3">
+                        <div class="icon display-6 txt-theme ">
+                            <iconify-icon icon="bi:lightning-charge"></iconify-icon>
+                        </div>
+                        <div class="desc">
+                            <h5>Recherchez, cliquez et réservez !</h5>
+                            <p class="txt-theme">Réserver un trajet devient encore plus simple ! Facile d'utilisation et
+                                dotée de technologies avancées, notre appli vous permet de réserver un trajet à
+                                proximité en un rien de temps.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <img src="./images/gasoline.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="px-3">
+                        <h4 class="title py-3">Le litre d'essence à 0,50 €, c'est entre vos mains.</h4>
+                        <p class="txt-theme">Ne cherchez plus la station service la moins chère.
+                            En covoiturant quotidiennement sur vos trajets domicile-travail avec BlaBlaCar Daily, le
+                            litre
+                            d’essence vous reviendrait à 0,50 €*.
+                        </p>
+                        <p class="txt-theme">
+                            On vous laisse calculer les économies faites sur votre plein…
+
+                            *Montant moyen calculé, le montant final peut varier, plus de détails sur
+                            http://blablacardaily.com
+                        </p>
+                        <a href="" class="btn btn-theme radius"> Discover BlaBlaCar Daily </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="scams default">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="px-3">
+                        <h4 class="  py-3 text-white">Aidez-nous à vous protéger contre les arnaques</h4>
+                        <p class="text-white">Chez BlaBlaCar, nous mettons tout en œuvre pour vous proposer une
+                            plateforme aussi sécurisée que possible. Mais les tentatives d'arnaque demeurent une
+                            réalité, et nous tenons à vous expliquer exactement comment les éviter et les signaler.
+                            Suivez nos conseils pour nous aider à vous protéger.
+                        </p>
+
+                        <a href="" class="btn btn-theme radius">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/warning.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lessCost  bg-white">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6">
+                    <img src="./images/road-trip-concept-illustration_114360-5643.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="px-3">
+                        <h4 class="title py-3">Des frais en moins et bien plus que ça…</h4>
+                        <p class="txt-theme">
+                            Des frais en moins et bien plus que ça…
+                            En covoiturant entre Saint Etienne et Fréjus, Camille, conductrice BlaBlaCar, va sauver une
+                            histoire d’amour et limiter un peu le CO2. Si elle pensait juste récupérer 60 € sur son
+                            trajet, c’est raté…
+
+
+                        </p>
+                        <p class="txt-theme">
+                            Comme elle, partagez bien plus qu’un simple trajet. En cadeau de bienvenue, recevez 25 € de
+                            carburant offerts pour votre premier covoiturage sur BlaBlaCar et 15 € sur BlaBlaCar Daily.
+                        </p>
+                        <a href="" class="btn btn-theme radius">Covoiturer avec nous </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary default destination">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 d-flex align-items-center">
+                    <div class="px-3">
+                        <h4 class="  py-3 text-white">Où allez-vous ?</h4>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="inner">
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        
+                      </div>
+
+                      <div class="row d-flex align-items-center justify-content-end pe-4">
+                        <button class="btn btn-theme radius   d-inline-block w-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        En voir plus
+                    </button>
+                      </div>
+                   
+                    <div class="collapse" id="collapseExample">
+                        <div class=" ">
+                          <div class="inner">
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="lessCost default bg-white">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6">
+                    <img src="./images/insurance.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="px-3">
+                        <h4 class="title py-3">Un produit d'assurance auto pensé pour vous</h4>
+                        <p class="txt-theme">
+                            Assurez votre véhicule avec BlaBlaCar Assurance par L’olivier et économisez en moyenne 274€* !
+                        </p>                         
+                        <a href="" class="btn btn-theme radius">Découvrir notre offre </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="lessCost pb-5 bg-white">
+        <div class="container">
+            <div class="row ">
+                
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="px-3">
+                        <h4 class="title py-3">Découvrez de nouvelles villes sans vous ruiner avec les bus BlaBlaCar !</h4>
+                        <p class="txt-theme">
+                            Chaque semaine, chaque mois. Pour une réunion importante ou juste parce que vous avez envie de voir un nouvel endroit. Avec une grande famille. Ou un gros bagage. Vers la mer comme vers les pistes de ski. Peu importe votre voyage, il sera toujours simple et abordable avec les bus BlaBlaCar
+                        </p>                         
+                        <a href="" class="btn btn-theme radius">Découvrir notre offre de bus </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/bus-with-inscription-london-bus-tour-cartoon_82574-4336.jpg" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary default destination">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 d-flex align-items-center">
+                    <div class="px-3">
+                        <h4 class="  py-3 text-white">Le top des destinations en bus</h4>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="inner">
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#" class="items">
+                            <div>
+                                <div> Bus Bordeaux to
+                                </div>
+                               
+                                <span class="txt-secondary">Toulouse</span>
+                            </div>
+                            <div>
+                                <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                            </div>
+                        </a>
+                        
+                      </div>
+
+                      <div class="row d-flex align-items-center justify-content-end pe-4">
+                        <button class="btn btn-theme radius   d-inline-block w-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                        En voir plus
+                    </button>
+                      </div>
+                   
+                    <div class="collapse" id="collapseExample2">
+                        <div class=" ">
+                          <div class="inner">
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                            <a href="#" class="items">
+                                <div>
+                                    <div> Bus Bordeaux to
+                                    </div>
+                                   
+                                    <span class="txt-secondary">Toulouse</span>
+                                </div>
+                                <div>
+                                    <iconify-icon  class="mx-2" icon="bi:arrow-right"></iconify-icon>
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <img src="./images/sticker.png" class="sticker">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-4">
+                    <h3 class=" title">Le covoiturage selon BlaBlaCar</h3>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blogBox card-style">
+                        <img src="./images/blog/Blog__Helper2018_bannerbis.jpg " class="img-fluid">
+                        <div class="content p-4"> 
+                            <h3 class="title">Top 5 des anecdotes de covoiturage   ❄️ Spécial fêtes de fin d’année ❄️</h3>
+                            <p class="txt-theme">Pour célébrer le cap des 100 millions de membres BlaBlaCar dans le monde, nous vous avons demandé de partager avec nous vos meilleurs souvenirs de covoiturage. Avec plus de 200 millions de rencontres chaque année, des moments uniques, inoubliables et parfois insolites arrivent souvent !
+                            </p>
+                            <a href="" class="btn btn-theme">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blogBox card-style">
+                        <img src="./images/blog/Blog__Helper2018_bannerbis.jpg " class="img-fluid">
+                        <div class="content p-4"> 
+                            <h3 class="title">Le BlaBlaHelp : notre tchat communautaire</h3>
+                            <p class="txt-theme">Nous croyons aux connexions humaines. Sur BlaBlaCar, quand vous avez une question, ce sont de vraies personnes qui vous répondent : les Helpers !
+                            </p>
+                            <a href="" class="btn btn-theme">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blogBox card-style">
+                        <img src="./images/blog/Blog__Helper2018_bannerbis.jpg " class="img-fluid">
+                        <div class="content p-4"> 
+                            <h3 class="title">BlaBlaCar fait le plein de nouveautés pour l’été ✨</h3>
+                            <p class="txt-theme">Découvrez nos dernières innovations et mises à jour
+                            </p>
+                            <a href="" class="btn btn-theme">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+              
+               
+
+            </div>
         </div>
     </section>
 
@@ -152,39 +694,32 @@
         </button>
     </div> -->
 
-    <footer class="py-3 px-4 footer-bg">
+    <footer class="py-5 px-4 footer-bg">
         <div class="container">
-            <div class="mt-4">
-                <div class="row justify-content-lg-between ">
-                    <div class="col-lg-8 col-md-6 col-sm-12 my-3 d-flex align-items-center">
-                        <div>
-                            <h5 class="txt-secondary fw-bold">NEWSLETTER SIGNUP</h5>
-
-                            <form class="newsletter">
-                                <small> Enter your email address, and click "Go"</small>
-                                <div class="d-flex justify-content-center mt-2">
-                                    <input type="text" placeholder="Your Email">
-                                    <input type="submit" class="go" value="Go">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-3 col-sm-12 my-2 py-4">
-                        <h5 class="mb-3 txt-secondary fw-bold">CONTACT US</h5>
-                        <p>
-                            <span class="iconify txt-secondary" data-icon="bxs:map"></span>
-                            <small>Address: 135-136, Alek Tower, West Nakhal Para, <br> Tejgaon, Dhaka-1215</small>
-                        </p>
-                        <p>
-                            <span class="iconify txt-secondary" data-icon="eva:phone-call-fill"></span> :
-                            <small> +880 2 9104628, +880 2 48111557, <br> +8801711524331, +8801677305791</small>
-                        </p>
-                        <p>
-                            <span class="iconify  txt-secondary" data-icon="carbon:email"></span> :
-                            <small> bfrs2019@gmail.com</small>
-                        </p>
-                    </div>
+            <div class="row col-lg-10 mx-auto">
+                <div class="col-lg-3">
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
+                    <p class="mb-2"><a href=""class="d-block link-theme">  Comment ça marche </a></p>
                 </div>
             </div>
             <hr class="my-4" style="background:rgba(255,255,255,0.5)">
@@ -202,7 +737,7 @@
     <script src="js/app.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="./js/slick.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="./js/select2.min.js" type="text/javascript"></script>
     <script type="text/javascript">
 
         $(document).ready(function () {
