@@ -1006,7 +1006,7 @@ footer .nav-item a:hover {
 }
 
 .title {
-  color: #054752;
+  color: #0065AA !important;
   font-family: "poppins-bold";
 }
 
@@ -1083,6 +1083,9 @@ footer .nav-item a:hover {
   background: #0065AA !important;
 }
 
+.destination {
+  background: #0065AA !important;
+}
 .destination .inner {
   display: flex;
   flex-wrap: wrap;

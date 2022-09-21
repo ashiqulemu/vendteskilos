@@ -1308,7 +1308,7 @@ footer {
 
 // for this site css
 .title {
-    color: $title;
+    color: $primary;
     font-family: "poppins-bold";
 }
 
@@ -1405,6 +1405,7 @@ footer {
 }
 
 .destination {
+    background: $primary;
     .inner {
         display: flex;
         flex-wrap: wrap;
