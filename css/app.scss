@@ -1,7 +1,7 @@
 // variables
 
-$primary: #0065AA !important;
-$secondary: #FF7A47 !important;
+$primary: #0065AA;
+$secondary: #FF7A47;
 $txt: #585858;
 $white: #fff;
 $title: #054752;
@@ -32,7 +32,7 @@ a {
 .footer-bg {
     background: $primary;
     background-size: 100% 100%;
-    border-top: 5px solid #0d5078;
+    border-top:5px solid lighten($primary, 10%);
 }
 
 html {
@@ -1439,5 +1439,40 @@ footer {
     font-family: "poppins-medium";
     &:hover{
         color: $secondary;
+    }
+}
+
+.social {
+    margin-top: 15px;
+    ul {
+        padding: 0;
+
+        li {
+            display: inline;
+            list-style: none;
+
+            a {
+                height: 38px;
+                width: 38px; 
+                margin-right: 5px;
+                text-align: center;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background: #fff !important;; 
+                    color: $primary;
+                font-size: 1.6rem;
+
+                iconify-icon {
+                    font-size: 1.3rem;
+                }
+
+                &:hover {
+                    background: #fff !important;; 
+                    color: $secondary;
+                }
+            }
+        }
     }
 }
