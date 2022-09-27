@@ -32,7 +32,7 @@ html {
 .section-title {
   margin-left: 15px;
   position: relative;
-  font-family: "poppins-bold";
+  font-family: "jost-bold";
 }
 .section-title:after {
   position: absolute;
@@ -77,14 +77,14 @@ html {
 .card-style .content {
   padding: 5px 20px 25px 20px;
   background: #fff;
-  font-family: "poppins-Light";
+  font-family: "jost-Light";
 }
 .card-style .content .title {
   font-size: 18px;
   margin: 12px 0 7px;
   color: #0065AA;
   text-transform: capitalize;
-  font-family: "poppins-medium";
+  font-family: "jost-medium";
 }
 .card-style .content p {
   font-size: 15px;
@@ -117,27 +117,31 @@ html {
 }
 
 @font-face {
-  font-family: "poppins-regular";
-  src: url(../fonts/Poppins-Regular.otf);
+  font-family: "jost-regular";
+  src: url(../fonts/Jost-Regular.ttf);
 }
 @font-face {
-  font-family: "poppins-medium";
-  src: url(../fonts/Poppins-Medium.otf);
+  font-family: "jost-medium";
+  src: url(../fonts/Jost-Medium.ttf);
 }
 @font-face {
-  font-family: "poppins-bold";
-  src: url(../fonts/Poppins-Bold.otf);
+  font-family: "jost-bold";
+  src: url(../fonts/Jost-Bold.ttf);
 }
 @font-face {
-  font-family: "poppins-Light";
-  src: url(../fonts/Poppins-Light.otf);
+  font-family: "jost-Light";
+  src: url(../fonts/Jost-Light.ttf);
+}
+@font-face {
+  font-family: "jost-semibold";
+  src: url(../fonts/Jost-SemiBold.ttf);
 }
 body {
   overflow-x: hidden;
-  font-family: "poppins-regular";
+  font-family: "jost-regular";
   background-color: #fff;
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .topbar {
@@ -167,6 +171,9 @@ body {
   color: #fff;
 }
 
+.siteHeader {
+  background: #F6F6F6;
+}
 @media (max-width: 375px) {
   .siteHeader .navbar-brand img {
     width: 200px;
@@ -178,8 +185,16 @@ body {
   color: #0065AA;
   padding: 8px 12px;
   border-radius: 4px;
-  font-family: "poppins-regular";
-  text-transform: uppercase;
+  font-family: "jost-bold";
+}
+.siteHeader .navCustom .nav-item .nav-link.highlight {
+  background: #ff724f;
+  color: #fff;
+  border-radius: 26px;
+  padding: 4px 15px;
+}
+.siteHeader .navCustom .nav-item .nav-link.highlight:hover {
+  color: #0065AA;
 }
 @media (max-width: 1024px) {
   .siteHeader .navCustom .nav-item .nav-link {
@@ -199,6 +214,20 @@ body {
 .siteHeader .navCustom .nav-item .dropdown-item.active {
   background-color: #0065AA;
   color: #fff;
+}
+.siteHeader .navCustom .nav-item select {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 0;
+  background: transparent;
+  color: #0065aa;
+  outline: 0;
+  font-weight: bold;
+}
+
+#dropdownItem1::after {
+  content: unset;
 }
 
 .recent_blog {
@@ -370,7 +399,7 @@ body {
 
 #contact {
   font-size: 16px;
-  font-family: "poppins-Light";
+  font-family: "jost-Light";
 }
 footer .nav-item a {
   color: lightgray !important;
@@ -559,7 +588,7 @@ footer .nav-item a:hover {
   border-radius: 4px;
   transition: all 0.2s ease-in;
   text-decoration: none;
-  font-family: "poppins-medium";
+  font-family: "jost-medium";
 }
 .btn-theme.radius {
   border-radius: 25px;
@@ -587,7 +616,7 @@ footer .nav-item a:hover {
   background: #1f3ac8;
 }
 .addressLocation .inner {
-  font-family: "poppins-medium";
+  font-family: "jost-medium";
   padding: 30px;
   font-size: 1.3rem;
 }
@@ -1007,17 +1036,30 @@ footer .nav-item a:hover {
 
 .title {
   color: #0065AA;
-  font-family: "poppins-bold";
+  font-family: "jost-bold";
 }
 
 .discover .box .desc h5 {
-  color: #054752;
+  font-family: "jost-bold";
+  color: #FF7A47;
   font-weight: 700;
   font-size: 18px;
   margin: 13px 0;
 }
+.box {
+  border-radius: 15px !important;
+  border: 0;
+  margin-bottom: 15px;
+  border-top: 5px solid #FF7A47;
+}
+@media (min-width: 960px) {
+  .box {
+    min-height: 542px;
+  }
+}
+
 .banner {
-  padding: 90px 0;
+  padding: 60px 0;
   background: url("../images/Happy couple of tourists with backpacks.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1032,11 +1074,12 @@ footer .nav-item a:hover {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background: linear-gradient(179deg, rgba(79, 205, 255, 0.5607843137) 60%, #ededed);
+  background: linear-gradient(0deg, rgba(128, 194, 235, 0.4392156863) 63%, #ffffff);
 }
 .banner h1 {
   text-align: center;
-  font-family: "poppins-bold";
+  font-family: "jost-bold";
+  font-size: 2.7rem;
   color: #0065AA;
   text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
@@ -1071,6 +1114,7 @@ footer .nav-item a:hover {
 .banner .inner .searchPanel .items label {
   color: #0065AA;
   margin-bottom: 5px;
+  font-family: "jost-bold";
 }
 .banner .inner .searchPanel .items:nth-last-child(1) {
   flex: inherit;
@@ -1116,7 +1160,7 @@ footer .nav-item a:hover {
 
 .link-theme {
   color: white;
-  font-family: "poppins-medium";
+  font-family: "jost-medium";
 }
 .link-theme:hover {
   color: #FF7A47;
