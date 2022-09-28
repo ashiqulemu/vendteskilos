@@ -8,11 +8,11 @@ a {
 }
 
 .txt-secondary {
-  color: #FF7A47;
+  color: #F57E3C;
 }
 
 .bg-secondary {
-  background: #FF7A47;
+  background: #F57E3C;
 }
 
 .txt-theme {
@@ -55,7 +55,7 @@ html {
   font-size: 14px;
 }
 .newsletter .go {
-  background-color: #FF7A47;
+  background-color: #F57E3C;
   border-radius: 0;
   height: 36px;
   border: 0;
@@ -107,7 +107,7 @@ html {
   width: 35px;
   border-radius: 4px;
   color: #0065AA;
-  background-color: #FF7A47;
+  background-color: #F57E3C;
 }
 .card-style .content .social a .iconify {
   font-size: 17px;
@@ -145,7 +145,7 @@ body {
 }
 
 .topbar {
-  background: #FF7A47;
+  background: #F57E3C;
 }
 .topbar .inner {
   display: flex;
@@ -160,7 +160,7 @@ body {
   justify-content: center;
   color: #0065AA;
   height: 100%;
-  color: #FF7A47;
+  color: #F57E3C;
   background: #ffd03a;
   margin-right: 2px;
 }
@@ -181,7 +181,7 @@ body {
 }
 .siteHeader .navCustom .nav-item .nav-link {
   margin-right: 0;
-  font-size: 15px;
+  font-size: 18px;
   color: #0065AA;
   padding: 8px 12px;
   border-radius: 4px;
@@ -202,10 +202,10 @@ body {
   }
 }
 .siteHeader .navCustom .nav-item .nav-link:hover {
-  color: #FF7A47;
+  color: #F57E3C;
 }
 .siteHeader .navCustom .nav-item .nav-link.active {
-  color: #FF7A47;
+  color: #F57E3C;
 }
 .siteHeader .navCustom .nav-item .dropdown-item:hover {
   background-color: #0065AA;
@@ -221,6 +221,7 @@ body {
   height: fit-content;
   border: 0;
   background: transparent;
+  font-family: "jost-bold";
   color: #0065aa;
   outline: 0;
   font-weight: bold;
@@ -286,7 +287,7 @@ body {
   background: #0065AA;
 }
 .slick-next:hover {
-  background: #FF7A47;
+  background: #F57E3C;
 }
 
 .slick-prev {
@@ -295,7 +296,7 @@ body {
   background: #0065AA;
 }
 .slick-prev:hover {
-  background: #FF7A47;
+  background: #F57E3C;
 }
 
 .slick-dots li button {
@@ -583,7 +584,7 @@ footer .nav-item a:hover {
   text-transform: uppercase;
   font-weight: 400;
   color: #ffffff;
-  background: #FF7A47;
+  background: #F57E3C;
   padding: 7px 18px;
   border-radius: 4px;
   transition: all 0.2s ease-in;
@@ -595,7 +596,7 @@ footer .nav-item a:hover {
   padding: 10px 18px;
 }
 .btn-theme:hover {
-  background: #FF7A47;
+  background: #F57E3C;
   border-color: #0065AA;
   color: #0065AA;
 }
@@ -603,8 +604,8 @@ footer .nav-item a:hover {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #FF7A47;
-  border-color: #FF7A47;
+  background-color: #F57E3C;
+  border-color: #F57E3C;
 }
 
 .addressLocation {
@@ -706,7 +707,7 @@ footer .nav-item a:hover {
 
 .connect {
   padding: 60px 0;
-  background-color: #FF7A47;
+  background-color: #F57E3C;
 }
 
 #imageGallery {
@@ -911,7 +912,7 @@ footer .nav-item a:hover {
   transition: all 0.3s ease-in;
 }
 .blog-aside .recent-post-widget .post-list li .post .post-details a .post-title:hover {
-  color: #FF7A47;
+  color: #F57E3C;
 }
 .blog-aside .recent-post-widget .post-list li .post .post-details .date {
   color: #7b8698;
@@ -1041,7 +1042,7 @@ footer .nav-item a:hover {
 
 .discover .box .desc h5 {
   font-family: "jost-bold";
-  color: #FF7A47;
+  color: #F57E3C;
   font-weight: 700;
   font-size: 18px;
   margin: 13px 0;
@@ -1065,6 +1066,7 @@ footer .nav-item a:hover {
   background-size: cover;
   position: relative;
   background-position: 31% 85%;
+  min-height: 400px;
 }
 .banner:after {
   content: "";
@@ -1074,7 +1076,7 @@ footer .nav-item a:hover {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background: linear-gradient(0deg, rgba(128, 194, 235, 0.4392156863) 63%, #ffffff);
+  background: linear-gradient(0deg, rgba(128, 194, 235, 0.4392156863) 63%, #f6f6f6);
 }
 .banner h1 {
   text-align: center;
@@ -1163,7 +1165,7 @@ footer .nav-item a:hover {
   font-family: "jost-medium";
 }
 .link-theme:hover {
-  color: #FF7A47;
+  color: #F57E3C;
 }
 
 .social {
@@ -1194,7 +1196,7 @@ footer .nav-item a:hover {
 }
 .social ul li a:hover {
   background: #fff !important;
-  color: #FF7A47;
+  color: #F57E3C;
 }
 
 .route-block {
@@ -1213,7 +1215,7 @@ footer .nav-item a:hover {
   margin-bottom: 15px;
 }
 .route-block:hover {
-  background-color: #FF7A47;
+  background-color: #F57E3C;
   color: white;
 }
 .route-block:hover .txt-secondary {

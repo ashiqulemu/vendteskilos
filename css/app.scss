@@ -1,7 +1,7 @@
 // variables
 
 $primary: #0065AA;
-$secondary: #FF7A47;
+$secondary: #F57E3C; 
 $txt: #585858;
 $white: #fff;
 $title: #054752;
@@ -226,7 +226,7 @@ body {
         .nav-item {
             .nav-link {
                 margin-right: 0;
-                font-size: 15px;
+                font-size: 18px;
                 color: $primary;
                 padding: 8px 12px;
                 border-radius: 4px;
@@ -272,6 +272,7 @@ body {
                 height: fit-content;
                 border: 0;
                 background: transparent;
+                font-family: "jost-bold";
                 color: #0065aa;
                 outline: 0;
                 font-weight: bold;
@@ -1379,6 +1380,7 @@ footer {
     background-size: cover;
     position: relative;
     background-position: 31% 85%;
+    min-height: 400px;
 
     &:after {
         content: '';
@@ -1388,7 +1390,7 @@ footer {
         right: 0;
         bottom: 0;
         z-index: 0;
-        background:linear-gradient(0deg, #80c2eb70 63%, #ffffff)
+        background:linear-gradient(0deg, #80c2eb70 63%, #f6f6f6);
     }
 
     h1 {
