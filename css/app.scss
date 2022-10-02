@@ -1,7 +1,7 @@
 // variables
 
 $primary: #0065AA;
-$secondary: #F57E3C; 
+$secondary: #F57E3C;
 $txt: #585858;
 $white: #fff;
 $title: #054752;
@@ -232,12 +232,12 @@ body {
                 border-radius: 4px;
                 font-family: "jost-bold";
 
-                &.highlight{
+                &.highlight {
                     background: #ff724f;
                     color: #fff;
                     border-radius: 26px;
                     padding: 4px 15px;
-                    
+
                     &:hover {
                         color: $primary;
                     }
@@ -283,8 +283,8 @@ body {
     }
 }
 
-#dropdownItem1{
-    &::after{
+#dropdownItem1 {
+    &::after {
         content: unset;
     }
 }
@@ -1346,7 +1346,7 @@ footer {
 }
 
 .discover {
-   
+
     .box {
         .desc {
             h5 {
@@ -1362,12 +1362,13 @@ footer {
     }
 }
 
-.box{
-    
-    @media(min-width:960px){
+.box {
+
+    @media(min-width:960px) {
         min-height: 542px;
     }
-    border-radius: 15px!important;
+
+    border-radius: 15px !important;
     border: 0;
     margin-bottom: 15px;
     border-top: 5px solid #FF7A47;
@@ -1390,7 +1391,7 @@ footer {
         right: 0;
         bottom: 0;
         z-index: 0;
-        background:linear-gradient(0deg, #80c2eb70 63%, #f6f6f6);
+        background: linear-gradient(0deg, #80c2eb70 63%, #f6f6f6);
     }
 
     h1 {
@@ -1569,5 +1570,29 @@ footer {
         position: absolute;
         left: -12px;
         top: 17px;
+    }
+}
+
+.howWorks {
+    .inner {
+        display: flex;
+        align-items: flex-start;
+        column-gap: 15px;
+        .left {
+            flex-basis: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 1px solid #e1e1e1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 25px;
+            color: $primary;
+        }
+
+        .right {
+            flex: 1;
+        }
     }
 }

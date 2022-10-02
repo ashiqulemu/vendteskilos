@@ -1237,4 +1237,26 @@ footer .nav-item a:hover {
   position: absolute;
   left: -12px;
   top: 17px;
+}
+
+.howWorks .inner {
+  display: flex;
+  align-items: flex-start;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.howWorks .inner .left {
+  flex-basis: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #0065AA;
+}
+.howWorks .inner .right {
+  flex: 1;
 }/*# sourceMappingURL=app.css.map */
