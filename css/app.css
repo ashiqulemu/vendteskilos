@@ -16,7 +16,7 @@ a {
 }
 
 .txt-theme {
-  color: #708c91;
+  color: #3a4142;
 }
 
 .footer-bg {
@@ -136,12 +136,45 @@ html {
   font-family: "jost-semibold";
   src: url(../fonts/Jost-SemiBold.ttf);
 }
+.jost-regular {
+  font-family: "jost-regular";
+}
+
+.jost-light {
+  font-family: "jost-light";
+}
+
+.jost-medium {
+  font-family: "jost-medium";
+}
+
+.jost-bold {
+  font-family: "jost-bold";
+}
+
+.bg-primary {
+  background-color: #0065AA !important;
+}
+
 body {
   overflow-x: hidden;
   font-family: "jost-regular";
   background-color: #fff;
   font-size: 16px;
   line-height: 1.7;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.card-style {
+  border-radius: 20px;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.choice {
+  background-image: linear-gradient(-9deg, #F6F6F6 50%, white 0%);
 }
 
 .topbar {
