@@ -8,11 +8,11 @@ a {
 }
 
 .txt-secondary {
-  color: #F57E3C;
+  color: #FF7947;
 }
 
 .bg-secondary {
-  background: #F57E3C;
+  background: #FF7947;
 }
 
 .txt-theme {
@@ -25,7 +25,7 @@ a {
   border-top: 2px solid #0083dd;
 }
 .footer-bg .social a iconify-icon {
-  color: #F57E3C;
+  color: #FF7947;
 }
 .footer-bg .social a:hover iconify-icon {
   color: #0065AA;
@@ -61,7 +61,7 @@ html {
   font-size: 14px;
 }
 .newsletter .go {
-  background-color: #F57E3C;
+  background-color: #FF7947;
   border-radius: 0;
   height: 36px;
   border: 0;
@@ -77,7 +77,7 @@ html {
 
 .card-style {
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 8px;
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1019607843);
 }
 .card-style .content {
@@ -112,10 +112,10 @@ html {
   height: 35px;
   width: 35px;
   border-radius: 4px;
-  background-color: #F57E3C;
+  background-color: #FF7947;
 }
 .card-style .content .social a iconify-icon {
-  color: #F57E3C !important;
+  color: #FF7947 !important;
   font-size: 17px;
 }
 .card-style .content .social a:hover {
@@ -175,7 +175,7 @@ body {
 }
 
 .card-style {
-  border-radius: 20px;
+  border-radius: 8px;
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
 }
 .card-style:hover h5 {
@@ -188,7 +188,7 @@ body {
 }
 
 .topbar {
-  background: #F57E3C;
+  background: #FF7947;
 }
 .topbar .inner {
   display: flex;
@@ -203,7 +203,7 @@ body {
   justify-content: center;
   color: #0065AA;
   height: 100%;
-  color: #F57E3C;
+  color: #FF7947;
   background: #ffd03a;
   margin-right: 2px;
 }
@@ -231,7 +231,7 @@ body {
   font-family: "jost-bold";
 }
 .siteHeader .navCustom .nav-item .nav-link.highlight {
-  background: #ff724f;
+  background: #FF7947;
   color: #fff;
   border-radius: 26px;
   padding: 4px 15px;
@@ -245,10 +245,10 @@ body {
   }
 }
 .siteHeader .navCustom .nav-item .nav-link:hover {
-  color: #F57E3C;
+  color: #FF7947;
 }
 .siteHeader .navCustom .nav-item .nav-link.active {
-  color: #F57E3C;
+  color: #FF7947;
 }
 .siteHeader .navCustom .nav-item .dropdown-item:hover {
   background-color: #0065AA;
@@ -330,7 +330,7 @@ body {
   background: #0065AA;
 }
 .slick-next:hover {
-  background: #F57E3C;
+  background: #FF7947;
 }
 
 .slick-prev {
@@ -339,7 +339,7 @@ body {
   background: #0065AA;
 }
 .slick-prev:hover {
-  background: #F57E3C;
+  background: #FF7947;
 }
 
 .slick-dots li button {
@@ -627,7 +627,7 @@ footer .nav-item a:hover {
   text-transform: uppercase;
   font-weight: 400;
   color: #ffffff;
-  background: #F57E3C;
+  background: #FF7947;
   padding: 7px 18px;
   border-radius: 4px;
   transition: all 0.2s ease-in;
@@ -639,7 +639,7 @@ footer .nav-item a:hover {
   padding: 10px 18px;
 }
 .btn-theme:hover {
-  background: #F57E3C;
+  background: #FF7947;
   border-color: #0065AA;
   color: #0065AA;
 }
@@ -647,8 +647,8 @@ footer .nav-item a:hover {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #F57E3C;
-  border-color: #F57E3C;
+  background-color: #FF7947;
+  border-color: #FF7947;
 }
 
 .addressLocation {
@@ -750,7 +750,7 @@ footer .nav-item a:hover {
 
 .connect {
   padding: 60px 0;
-  background-color: #F57E3C;
+  background-color: #FF7947;
 }
 
 #imageGallery {
@@ -955,7 +955,7 @@ footer .nav-item a:hover {
   transition: all 0.3s ease-in;
 }
 .blog-aside .recent-post-widget .post-list li .post .post-details a .post-title:hover {
-  color: #F57E3C;
+  color: #FF7947;
 }
 .blog-aside .recent-post-widget .post-list li .post .post-details .date {
   color: #7b8698;
@@ -1085,7 +1085,7 @@ footer .nav-item a:hover {
 
 .discover .box .desc h5 {
   font-family: "jost-bold";
-  color: #F57E3C;
+  color: #FF7947;
   font-weight: 700;
   font-size: 18px;
   margin: 13px 0;
@@ -1208,7 +1208,7 @@ footer .nav-item a:hover {
   font-family: "jost-medium";
 }
 .link-theme:hover {
-  color: #F57E3C;
+  color: #FF7947;
 }
 
 .social {
@@ -1239,7 +1239,7 @@ footer .nav-item a:hover {
 }
 .social ul li a:hover {
   background: #fff !important;
-  color: #F57E3C;
+  color: #FF7947;
 }
 
 .route-block {
@@ -1258,7 +1258,7 @@ footer .nav-item a:hover {
   margin-bottom: 15px;
 }
 .route-block:hover {
-  background-color: #F57E3C;
+  background-color: #FF7947;
   color: white;
 }
 .route-block:hover .txt-secondary {
@@ -1302,7 +1302,7 @@ footer .nav-item a:hover {
   font-weight: bold;
   font-size: 25px;
   color: #fff;
-  background: #F57E3C;
+  background: #FF7947;
 }
 .howWorks .inner .right {
   flex: 1;
@@ -1331,7 +1331,6 @@ footer .nav-item a:hover {
 }
 .choose .content-container {
   display: flex;
-  padding: 35px 0;
 }
 .choose .content-container .inner {
   display: flex;
@@ -1366,7 +1365,7 @@ footer .nav-item a:hover {
   }
 }
 .choose .content-container .inner .items:hover .block h5 {
-  color: #F57E3C;
+  color: #FF7947;
 }
 .choose .content-container .art {
   flex: 1;
@@ -1430,4 +1429,57 @@ footer .nav-item a:hover {
 
 .bottom-footer {
   background: #E0DFDF;
+}
+
+.profileBox .photo {
+  height: 190px;
+  position: relative;
+}
+.profileBox .photo img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 190px;
+  width: 100%;
+}
+.profileBox .photo .topper {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 90%;
+  margin: 0 auto;
+  bottom: -42px;
+  left: 16px;
+}
+.profileBox .photo .topper .ambassador {
+  background-color: #FF7947;
+  padding: 3px 11px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+.profileBox .photo .topper .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid white;
+  height: 80px;
+}
+.profileBox .photo .topper .profile img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.profileBox .inner {
+  position: relative;
+  padding: 20px;
+}
+
+.flex-1 {
+  flex: 1;
 }/*# sourceMappingURL=app.css.map */

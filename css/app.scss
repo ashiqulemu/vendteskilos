@@ -1,7 +1,7 @@
 // variables
 
 $primary: #0065AA;
-$secondary: #F57E3C;
+$secondary: #FF7947;
 $txt: #585858;
 $white: #fff;
 $title: #054752;
@@ -102,7 +102,7 @@ html {
 
 .card-style {
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: 0 4px 24px 0 #0000001a;
 
     .content {
@@ -219,7 +219,7 @@ body {
 }
 
 .card-style {
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: 0 4px 24px 0 rgb(0 0 0 / 10%);
 
     &:hover {
@@ -293,7 +293,7 @@ body {
                 font-family: "jost-bold";
 
                 &.highlight {
-                    background: #ff724f;
+                    background: $secondary;
                     color: #fff;
                     border-radius: 26px;
                     padding: 4px 15px;
@@ -1687,7 +1687,6 @@ footer {
 
     .content-container {
         display: flex;
-        padding: 35px 0;
 
         .inner {
             display: flex;
@@ -1739,12 +1738,13 @@ footer {
         .art {
             flex: 1;
             display: none;
-           
+
             padding: 25px;
-            @media(min-width:1025px){ 
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
+            @media(min-width:1025px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }
@@ -1805,6 +1805,68 @@ footer {
     color: #23366e;
 }
 
-.bottom-footer{
+.bottom-footer {
     background: #E0DFDF;
+}
+
+.profileBox {
+    .photo {
+        height: 190px;
+        position: relative;
+
+        img {
+            object-fit: fill;
+            height: 190px;
+            width: 100%;
+        }
+
+        .topper {
+            display: flex;
+            z-index: 1;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            width: 90%;
+            margin: 0 auto;
+            bottom: -42px;
+            left: 16px;
+
+            .ambassador {
+                background-color: $secondary;
+                padding: 3px 11px;
+                text-align: center;
+                color: #fff;
+                border-radius: 5px;
+            }
+
+            .profile {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 80px;
+                overflow: hidden;
+                border-radius: 50%;
+                border: 4px solid white;
+                height: 80px;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    object-fit: fill;
+                }
+            }
+        }
+
+
+    }
+
+    .inner {
+        position: relative;
+        padding: 20px;
+
+    }
+
+}
+.flex-1{
+    flex:1;
 }
