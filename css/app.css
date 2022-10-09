@@ -22,7 +22,7 @@ a {
 .footer-bg {
   background: #F6F6F6;
   background-size: 100% 100%;
-  border-top: 2px solid #0083dd;
+  border-top: 3px solid #0083dd;
 }
 .footer-bg .social a iconify-icon {
   color: #FF7947;
@@ -75,36 +75,36 @@ html {
   color: #0065AA;
 }
 
-.card-style {
+.card-style, .trips .available {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1019607843);
 }
-.card-style .content {
+.card-style .content, .trips .available .content {
   padding: 5px 20px 25px 20px;
   background: #fff;
   font-family: "jost-Light";
 }
-.card-style .content .title {
+.card-style .content .title, .trips .available .content .title {
   font-size: 18px;
   margin: 12px 0 7px;
   color: #0065AA;
   text-transform: capitalize;
   font-family: "jost-medium";
 }
-.card-style .content p {
+.card-style .content p, .trips .available .content p {
   font-size: 15px;
   min-height: 167px;
   text-align: justify;
   margin-top: 17px;
 }
-.card-style .content .social {
+.card-style .content .social, .trips .available .content .social {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.card-style .content .social a {
-  border: 1px solid lightgrey;
+.card-style .content .social a, .trips .available .content .social a {
+  border: 1px solid rgba(211, 211, 211, 0.3098039216);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,11 +114,11 @@ html {
   border-radius: 4px;
   background-color: #FF7947;
 }
-.card-style .content .social a iconify-icon {
+.card-style .content .social a iconify-icon, .trips .available .content .social a iconify-icon {
   color: #FF7947 !important;
   font-size: 17px;
 }
-.card-style .content .social a:hover {
+.card-style .content .social a:hover, .trips .available .content .social a:hover {
   color: #fff !important;
 }
 
@@ -174,11 +174,11 @@ body {
   width: 80%;
 }
 
-.card-style {
+.card-style, .trips .available {
   border-radius: 8px;
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
 }
-.card-style:hover h5 {
+.card-style:hover h5, .trips .available:hover h5 {
   color: #0065AA;
   cursor: default;
 }
@@ -736,12 +736,6 @@ footer .nav-item a:hover {
 }
 .conatactInfo img:hover {
   filter: saturate(2);
-}
-
-.testimonial-section {
-  background: url("../images/testimonials.jpg");
-  background-size: 100% 100%;
-  padding: 100px 0;
 }
 
 .partners-section {
@@ -1315,7 +1309,7 @@ footer .nav-item a:hover {
 .choose .left .box {
   border-radius: 0 !important;
   padding: 15px;
-  border: 1px dashed rgba(223, 223, 223, 0.3411764706);
+  border: 1px dashed rgba(149, 174, 253, 0.53);
   font-size: 1.8rem;
   text-transform: uppercase;
   display: flex;
@@ -1545,14 +1539,16 @@ footer .nav-item a:hover {
   color: rgba(253, 227, 46, 0.9098039216);
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #FF7947 !important;
 }
-.slick-prev:before, .slick-next:before {
+.slick-prev:before,
+.slick-next:before {
   font-size: 20px;
 }
 
@@ -1562,6 +1558,136 @@ footer .nav-item a:hover {
 
 .slick-dots li.slick-active button {
   background: #FF7947 !important;
+}
+
+.trips .searchPanel {
+  margin: 45px 0px 0 0;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.6509803922);
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+@media (max-width: 768px) {
+  .trips .searchPanel {
+    flex-direction: column;
+  }
+}
+.trips .searchPanel .items {
+  flex: 1;
+  margin: 6px 0;
+}
+.trips .searchPanel .items label {
+  color: #0065AA;
+  margin-bottom: 5px;
+  font-family: "jost-bold";
+}
+.trips .searchPanel .items:nth-last-child(1) {
+  flex: inherit;
+}
+.trips .searchPanel .items:nth-last-child(2) {
+  flex: inherit;
+}
+.trips .trip-card {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(211, 211, 211, 0.3098039216);
+  margin-bottom: 20px;
+}
+.trips .trip-card .profile {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.trips .trip-card .profile .user {
+  height: 90px;
+  width: 90px;
+}
+.trips .trip-card .profile .user img {
+  width: 100%;
+  height: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.trips .trip-card .profile .name {
+  font-weight: bold;
+  color: #0065AA;
+  font-size: 1rem;
+  line-height: 2.2;
+}
+.trips .trip-card .profile .country {
+  color: #FF7947;
+  margin-bottom: 0;
+  line-height: 0.3;
+}
+.trips .trip-card .details {
+  border-left: 1px solid rgba(211, 211, 211, 0.3098039216);
+  border-right: 1px solid rgba(211, 211, 211, 0.3098039216);
+  padding: 15px 20px;
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+.trips .trip-card .details .inner .tripTitle {
+  font-size: 16px;
+  font-family: "jost-bold";
+}
+.trips .trip-card .details .inner .ticket-status.verified {
+  border-radius: 10px;
+  background-color: #2fa52f;
+  color: #fff;
+  padding: 2px 10px;
+  font-size: 11px;
+  text-transform: capitalize;
+}
+.trips .trip-card .details .inner .ticket-status.unverified {
+  border-radius: 10px;
+  background-color: #ff6a6a;
+  color: #fff;
+  padding: 2px 10px;
+  font-size: 11px;
+  text-transform: capitalize;
+}
+.trips .trip-card .price {
+  padding: 15px;
+  flex: 1;
+}
+.trips .trip-card:hover {
+  background-color: rgba(3, 169, 244, 0.0509803922);
+}
+
+.testimonial-section {
+  background: url("../images/testimonials.jpg");
+  padding: 70px 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.testimonial-section .testimonial .blogBox {
+  transition: all 0.4s ease;
+  border-radius: 15px;
+  background: linear-gradient(1deg, rgba(123, 202, 255, 0.1019607843) -37%, rgba(47, 140, 246, 0.4));
+  border: 1px solid #03a9f4;
+}
+.testimonial-section .testimonial .blogBox .content {
+  padding: 34px;
+}
+.testimonial-section .testimonial .blogBox .content h5 {
+  color: #03a9f4;
+}
+.testimonial-section .testimonial .blogBox .content img {
+  border: 4px solid white;
+  transition: all 0.4s ease;
+}
+.testimonial-section .testimonial .blogBox:hover img {
+  transform: translateY(-5px);
 }
 
 .frame {
@@ -1579,8 +1705,8 @@ svg {
 }
 
 /**
- *  Plane
- */
+   *  Plane
+   */
 /* Plane: Container*/
 .plane-container {
   margin: -240px auto;
@@ -1639,8 +1765,8 @@ svg {
   }
 }
 /**
- * Clouds
- */
+   * Clouds
+   */
 .clouds {
   position: absolute;
   top: -20%;
