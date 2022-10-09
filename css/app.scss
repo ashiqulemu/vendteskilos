@@ -2001,6 +2001,10 @@ footer {
         border: 1px solid #d3d3d34f;
         margin-bottom: 20px;
 
+        @media(max-width:600px){
+            flex-direction: column;
+        }
+
         .profile { 
             padding: 15px;
             flex: 1;
@@ -2066,6 +2070,9 @@ footer {
                         font-size: 11px;
                         text-transform: capitalize;
                     }
+                }
+                h6{
+                    font-size: 15px;
                 }
             }
         }

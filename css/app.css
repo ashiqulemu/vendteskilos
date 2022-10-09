@@ -1599,6 +1599,11 @@ footer .nav-item a:hover {
   border: 1px solid rgba(211, 211, 211, 0.3098039216);
   margin-bottom: 20px;
 }
+@media (max-width: 600px) {
+  .trips .trip-card {
+    flex-direction: column;
+  }
+}
 .trips .trip-card .profile {
   padding: 15px;
   flex: 1;
@@ -1655,6 +1660,9 @@ footer .nav-item a:hover {
   padding: 2px 10px;
   font-size: 11px;
   text-transform: capitalize;
+}
+.trips .trip-card .details .inner h6 {
+  font-size: 15px;
 }
 .trips .trip-card .price {
   padding: 15px;
