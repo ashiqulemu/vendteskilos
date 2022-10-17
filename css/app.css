@@ -1088,7 +1088,6 @@ footer .nav-item a:hover {
   border-radius: 15px !important;
   border: 0;
   margin-bottom: 15px;
-  border-top: 5px solid #FF7A47;
 }
 @media (min-width: 960px) {
   .box {
@@ -1692,6 +1691,77 @@ footer .nav-item a:hover {
 }
 .testimonial-section .testimonial .blogBox:hover img {
   transform: translateY(-5px);
+}
+
+.login-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-panel .inner {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: -5px 1px 53px -9px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+@media (max-width: 960px) {
+  .login-panel .inner {
+    flex-direction: column;
+  }
+}
+.login-panel .inner .left {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAFBFD;
+}
+@media (max-width: 992px) {
+  .login-panel .inner .left {
+    display: none;
+  }
+}
+.login-panel .inner .box {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  flex: 1;
+}
+.login-panel .inner .box .form-control {
+  transition: all 0.6s ease;
+}
+.login-panel .inner .box .form-control:focus {
+  box-shadow: none;
+  border-color: #0065AA;
+  color: #0065AA;
+}
+.login-panel .inner .box h3 {
+  color: #0065AA;
+  font-weight: bold;
+  font-family: "jost-bold";
+}
+.login-panel .inner .box .social {
+  font-size: 28px;
+  margin: 5px;
+}
+.login-panel .inner .box input.form-control {
+  background: #F4F5F6;
+  border-radius: 5px;
+  border-color: #D3E1E5;
+}
+.login-panel .inner .box input.form-control::-moz-placeholder {
+  color: #858585;
+}
+.login-panel .inner .box input.form-control:-ms-input-placeholder {
+  color: #858585;
+}
+.login-panel .inner .box input.form-control::placeholder {
+  color: #858585;
 }
 
 .frame {
