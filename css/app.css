@@ -1697,7 +1697,8 @@ footer .nav-item a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 92vh;
+  background: #fff;
 }
 .login-panel .inner {
   width: 70%;
@@ -1718,7 +1719,7 @@ footer .nav-item a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FAFBFD;
+  background-color: #f7f8f9;
 }
 @media (max-width: 992px) {
   .login-panel .inner .left {
@@ -1729,8 +1730,8 @@ footer .nav-item a:hover {
   padding: 40px;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
   flex: 1;
+  background-color: #fff;
 }
 .login-panel .inner .box .form-control {
   transition: all 0.6s ease;
