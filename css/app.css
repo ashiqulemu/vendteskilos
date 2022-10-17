@@ -1696,8 +1696,6 @@ footer .nav-item a:hover {
 .login-panel {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 92vh;
   background: #fff;
 }
 .login-panel .inner {
