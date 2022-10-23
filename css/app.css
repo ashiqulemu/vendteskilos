@@ -1807,7 +1807,7 @@ svg {
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(101px) rotateZ(12deg);
+    transform: translateY(60px) rotateZ(12deg);
   }
 }
 .plane {
