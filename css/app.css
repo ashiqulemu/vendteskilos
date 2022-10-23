@@ -640,8 +640,6 @@ footer .nav-item a:hover {
 }
 .btn-theme:hover {
   background: #FF7947;
-  border-color: #c14d07;
-  color: #ffeb3b;
 }
 
 .page-item.active .page-link {
@@ -1422,6 +1420,7 @@ footer .nav-item a:hover {
   border-radius: 0 94px 95px 0;
   font-size: 1.3rem;
   color: #23366e;
+  border: 4px solid #e0e6f1;
 }
 
 .bottom-footer {
@@ -1693,6 +1692,24 @@ footer .nav-item a:hover {
   transform: translateY(-5px);
 }
 
+@media (max-width: 768px) {
+  .navbar.navbar-expand-lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar.navbar-expand-lg a img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar.navbar-expand-lg .navbar-toggler {
+    position: absolute;
+    right: 16px;
+    top: 48px;
+  }
+}
+
 .login-panel {
   display: flex;
   justify-content: center;
@@ -1766,7 +1783,7 @@ footer .nav-item a:hover {
 .frame {
   width: 500px;
   height: auto;
-  margin: 15% auto 0;
+  margin: 17% auto 0;
   position: absolute;
   width: 100%;
 }
