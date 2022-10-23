@@ -1639,6 +1639,9 @@ footer .nav-item a:hover {
   display: flex;
   align-items: center;
 }
+.trips .trip-card .details .inner {
+  color: #333333;
+}
 .trips .trip-card .details .inner .tripTitle {
   font-size: 16px;
   font-family: "jost-bold";
