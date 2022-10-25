@@ -18,7 +18,7 @@ a {
 }
 
 .txt-secondary {
-    color: $secondary;
+    color: $secondary!important;
 }
 
 .bg-secondary {
@@ -897,6 +897,9 @@ footer {
 }
 
 .nav-item.dropdown {
+    .dropdown-menu{
+        z-index: 1021;
+    }
     @media(min-width:992px) {
         &:hover {
             .dropdown-menu {
@@ -2596,5 +2599,15 @@ svg {
     }
 }
 
+
+:target .card-style{ 
+         background-color:#fffae9   !important;
+        // background-color:#F6F6F6!important;
+     
+}
+
+.active-link{ 
+   color: #fff038 !important;
+}
 
  

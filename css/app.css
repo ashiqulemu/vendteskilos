@@ -8,7 +8,7 @@ a {
 }
 
 .txt-secondary {
-  color: #FF7947;
+  color: #FF7947 !important;
 }
 
 .bg-secondary {
@@ -696,6 +696,9 @@ footer .nav-item a:hover {
   display: none;
 }
 
+.nav-item.dropdown .dropdown-menu {
+  z-index: 1021;
+}
 @media (min-width: 992px) {
   .nav-item.dropdown:hover .dropdown-menu {
     display: block !important;
@@ -2065,4 +2068,12 @@ svg {
 }
 .blog-details .blog-content .content .tag-social-link .social-links li a i {
   margin-top: 8px;
+}
+
+:target .card-style, :target .trips .available, .trips :target .available {
+  background-color: #fffae9 !important;
+}
+
+.active-link {
+  color: #fff038 !important;
 }/*# sourceMappingURL=app.css.map */
