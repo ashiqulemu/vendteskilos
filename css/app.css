@@ -1155,6 +1155,7 @@ footer .nav-item a:hover {
   color: #0065AA;
   margin-bottom: 5px;
   font-family: "jost-bold";
+  font-size: 18px;
 }
 .banner .inner .searchPanel .items:nth-last-child(1) {
   flex: inherit;
@@ -1382,7 +1383,7 @@ footer .nav-item a:hover {
 }
 
 .fs-18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .tutorial .photo {
@@ -1592,6 +1593,7 @@ footer .nav-item a:hover {
   color: #0065AA;
   margin-bottom: 5px;
   font-family: "jost-bold";
+  font-size: 18px;
 }
 .trips .trip-card {
   padding: 0px 0px;
@@ -2081,5 +2083,11 @@ svg {
 }
 
 .active-link {
-  color: #fff038 !important;
+  color: #ffffff !important;
+  background: #FF7947;
+  border-radius: 4px;
+}
+
+label {
+  color: #0067a6;
 }/*# sourceMappingURL=app.css.map */

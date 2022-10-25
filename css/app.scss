@@ -1490,6 +1490,7 @@ h5{
                     color: $primary;
                     margin-bottom: 5px;
                     font-family: "jost-bold";
+                    font-size: 18px;
                 }
 
                 &:nth-last-child(1) {
@@ -1759,7 +1760,7 @@ h5{
 }
 
 .fs-18{
-    font-size: 18px;
+    font-size: 18px!important;
 }
 
 .tutorial {
@@ -1995,6 +1996,7 @@ h5{
                 color: $primary;
                 margin-bottom: 5px;
                 font-family: "jost-bold";
+                font-size: 18px;
             }
 
 
@@ -2612,7 +2614,13 @@ svg {
 }
 
 .active-link{ 
-   color: #fff038 !important;
+    color: #ffffff !important;
+    background: $secondary;
+    border-radius:4px; 
+}
+label { 
+   
+    color: #0067a6;
 }
 
  
