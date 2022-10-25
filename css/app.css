@@ -1201,6 +1201,7 @@ footer .nav-item a:hover {
 .link-theme {
   color: #0065AA;
   font-family: "jost-medium";
+  font-size: 17px;
 }
 .link-theme:hover {
   color: #FF7947;
@@ -1301,6 +1302,7 @@ footer .nav-item a:hover {
 }
 .howWorks .inner .right {
   flex: 1;
+  font-size: 18px;
 }
 
 .choose .left {
@@ -1363,7 +1365,7 @@ footer .nav-item a:hover {
     width: 100% !important;
   }
 }
-.choose .content-container .inner .items:hover .block h5 {
+.choose .content-container .inner .items:hover .block h4 {
   color: #FF7947;
 }
 .choose .content-container .art {
@@ -1377,6 +1379,10 @@ footer .nav-item a:hover {
     align-items: center;
     justify-content: center;
   }
+}
+
+.fs-18 {
+  font-size: 18px;
 }
 
 .tutorial .photo {

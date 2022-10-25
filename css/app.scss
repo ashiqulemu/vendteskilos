@@ -1546,6 +1546,7 @@ h5{
 .link-theme {
     color: #0065AA;
     font-family: "jost-medium";
+    font-size: 17px;    
 
     &:hover {
         color: $secondary;
@@ -1653,10 +1654,12 @@ h5{
             font-size: 25px;
             color: $white;
             background: $secondary;
+             
         }
 
         .right {
             flex: 1;
+            font-size: 18px;
         }
     }
 }
@@ -1730,7 +1733,7 @@ h5{
 
                 &:hover {
                     .block {
-                        h5 {
+                        h4 {
                             color: $secondary;
                         }
                     }
@@ -1753,6 +1756,10 @@ h5{
     }
 
 
+}
+
+.fs-18{
+    font-size: 18px;
 }
 
 .tutorial {
