@@ -2077,7 +2077,7 @@ svg {
 }
 
 :target .card-style, :target .trips .available, .trips :target .available {
-  background-color: #fffae9 !important;
+  border: 1px solid rgba(8, 108, 169, 0.4588235294);
 }
 
 .active-link {

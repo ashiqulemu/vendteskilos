@@ -2607,10 +2607,8 @@ svg {
 }
 
 
-:target .card-style{ 
-         background-color:#fffae9   !important;
-        // background-color:#F6F6F6!important;
-     
+:target .card-style{  
+        border: 1px solid #086ca975; 
 }
 
 .active-link{ 

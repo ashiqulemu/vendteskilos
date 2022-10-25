@@ -33,7 +33,7 @@
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-lg py-0">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src="./images/logo-vendteskilos.svg" class="img-fluid mx-auto w-75">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -283,7 +283,7 @@
                                 <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
                                     <div class="p-3">
                                         <p class="fs-6 mb-1 txt-primary jost-medium">Current trips</p>
-                                        <span class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                        <span class="">Lorem ipsum dolor sit, amet consectetur adipisicing
                                             elit. Ipsa facilis sed blanditiis!</span>
                                     </div>
                                 </div>
@@ -292,7 +292,7 @@
                                 <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
                                     <div class="p-3">
                                         <p class="fs-6 mb-1 txt-primary jost-medium">Historic Routes</p>
-                                        <span class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                        <span class="">Lorem ipsum dolor sit, amet consectetur adipisicing
                                             elit. Ipsa facilis sed blanditiis!</span>
                                     </div>
                                 </div>
@@ -447,7 +447,7 @@
                                 <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
                                     <div class="p-3">
                                         <p class="fs-6 mb-1 txt-primary jost-medium">Ongoing expeditions</p>
-                                        <p>
+                                        <p class="text-muted">
                                         <h6 class="txt-secondary"> My expeditions</h6>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laborum nostrum
                                         repellat facilis rerum voluptatem ut impedit vel est minima, modi vitae atque.
@@ -464,16 +464,17 @@
                                 <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
                                     <div class="p-3">
                                         <p class="fs-6 mb-1 txt-primary jost-medium">Historical expeditions</p>
-                                        <p>
-                                        <h6 class="txt-secondary">Shipping history</h6>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laborum nostrum
-                                        repellat facilis rerum voluptatem ut impedit vel est minima, modi vitae atque.
-                                        Dolores, velit!
-                                        </p>
+                                        <pclass="text-muted">
+                                            <h6 class="txt-secondary">Shipping history</h6>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laborum nostrum
+                                            repellat facilis rerum voluptatem ut impedit vel est minima, modi vitae
+                                            atque.
+                                            Dolores, velit!
+                                            </pclass=>
 
-                                        <div class="alert alert-warning">
-                                            You have no shipments in progress.
-                                        </div>
+                                            <div class="alert alert-warning">
+                                                You have no shipments in progress.
+                                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -551,7 +552,8 @@
 
                                         <p>
                                         <h6 class="txt-secondary">Why create an alert?</h6>
-                                        <b>It's practical :</b> You can set it up several days in advance and be
+                                        <b class="txt-primary">It's practical :</b> You can set it up several days in
+                                        advance and be
                                         notified as soon as a travel opportunity arises.
 
                                         </p>
@@ -685,7 +687,7 @@
                                     </form>
                                     <hr>
                                     <!-- picture /logo -->
-                                    <div class="p-3" id="profile-photo">
+                                    <div class="p-3">
                                         <p class="fs-6 mb-1 txt-secondary jost-medium">Profile Photo / Logo</p>
                                     </div>
                                     <form action="">
@@ -707,7 +709,7 @@
                                     </form>
                                     <hr>
                                     <!-- Preference -->
-                                    <div class="p-3" id="profile-photo">
+                                    <div class="p-3">
                                         <p class="fs-6 mb-1 txt-secondary jost-medium">Preference</p>
                                         <p class="mb-2">You have the option of displaying the different categories of
                                             koli that you wish to transport on your journeys</p>
@@ -717,90 +719,332 @@
                                             <div class="col-lg-6 mb-3 ">
                                                 <div class="d-flex alert flex-wrap alert-success align-items-center">
                                                     <p class="mb-0"> I Take : </p>
-                                                <div class="mx-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Envelopes </label>
+                                                    <div class="mx-2">
+                                                        <input id="Envelopes" type="radio" name="" id="">
+                                                        <label for="Envelopes"> Envelopes </label>
+                                                    </div>
+                                                    <div class="me-2">
+                                                        <input id="Envelopes" type="radio" name="" id="">
+                                                        <label for="Envelopes"> Full bags </label>
+                                                    </div>
+                                                    <div class="me-2">
+                                                        <input id="Envelopes" type="radio" name="" id="">
+                                                        <label for="Envelopes"> Packages </label>
+                                                    </div>
                                                 </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Full bags </label>
-                                                </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Packages </label>
-                                                </div>
-                                                </div>
-                                            </div> 
+                                            </div>
                                             <div class="col-lg-6 mb-3 ">
                                                 <div class="d-flex alert flex-wrap alert-warning align-items-center">
                                                     <p class="mb-0"> I Dont Take : </p>
-                                                <div class="mx-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Envelopes </label>
+                                                    <div class="mx-2">
+                                                        <input id="Envelopes" type="radio" name="" id="">
+                                                        <label for="Envelopes"> Envelopes </label>
+                                                    </div>
+                                                    <div class="me-2">
+                                                        <input id="Envelopes" type="radio" name="" id="">
+                                                        <label for="Envelopes"> Full bags </label>
+                                                    </div>
+                                                    <div class="me-2">
+                                                        <input id="Envelopes" type="radio" name="" id="">
+                                                        <label for="Envelopes"> Packages </label>
+                                                    </div>
                                                 </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Full bags </label>
-                                                </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Packages </label>
-                                                </div>
-                                                </div>
-                                            </div> 
+                                            </div>
                                         </div>
                                     </form>
                                     <hr>
                                     <!-- verification -->
-                                    <div class="p-3" id="profile-photo">
-                                     <p class="fs-6 mb-1 txt-secondary jost-medium">Verifications</p>
-                                        <p class="mb-2">You have the option of displaying the different categories of
-                                            koli that you wish to transport on your journeys</p>
-                                    </div>
-                                    <form action="">
+                                    <div class="p-3">
+                                        <h5 class=" mb-1 txt-primary jost-medium">Verifications</h5>
+                                        <p class="mb-3 ">
+                                            Get your profile verified to become a trusted member of our community. You
+                                            will find shippers and carriers more easily!
+                                        </p>
                                         <div class="row">
-                                            <div class="col-lg-6 mb-3 ">
-                                                <div class="d-flex alert flex-wrap alert-success align-items-center">
-                                                    <p class="mb-0"> I Take : </p>
-                                                <div class="mx-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Envelopes </label>
-                                                </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Full bags </label>
-                                                </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Packages </label>
-                                                </div>
-                                                </div>
-                                            </div> 
-                                            <div class="col-lg-6 mb-3 ">
-                                                <div class="d-flex alert flex-wrap alert-warning align-items-center">
-                                                    <p class="mb-0"> I Dont Take : </p>
-                                                <div class="mx-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Envelopes </label>
-                                                </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Full bags </label>
-                                                </div>
-                                                <div class="me-2">
-                                                    <input id="Envelopes" type="radio" name="" id="">
-                                                    <label for="Envelopes"> Packages </label>
-                                                </div>
-                                                </div>
-                                            </div> 
+                                            <div class="col-lg-6">
+                                                <h6 class=" fs-6 mb-1 txt-secondary jost-medium">Email Address</h6>
+                                                <p class="mb-2">You have confirmed this address:
+                                                    <b class="txt-dark"> ashiqulemu.jpi@gmail.com</b>
+                                                    It is important to have a confirmed email address so that we can
+                                                    contact you in a completely secure way.
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h6 class=" fs-6 mb-1 txt-secondary jost-medium">Telephone (Whatsapp)
+                                                </h6>
+                                                <p class="mb-2">
+                                                    <a href="" class="btn btn-theme my-2">Please register your phone
+                                                        number</a>
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <h6 class=" fs-6 mb-1 txt-secondary jost-medium">ID</h6>
+                                                <p class="mb-2">
+                                                    Send your identity document (passport, national card or residence
+                                                    permit). Other members will be more inclined to work with you.
+                                                    <b class="text-danger">
+                                                        *Please ensure that the surnames and first names mentioned on
+                                                        your profile are identical to those appearing on your valid
+                                                        identity document
+                                                    </b>
+                                                </p>
+                                            </div>
+
                                         </div>
-                                    </form>
+
+                                    </div>
+
+                                    <hr>
+                                    <!-- Notices received -->
+                                    <div class="p-3">
+                                        <h5 class=" mb-1 txt-primary jost-medium">Notices</h5>
+
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <p class="fs-6 mb-1 txt-secondary jost-medium">Notices Received</p>
+                                                <p class="mb-2">You are evaluated at the end of each transaction by the
+                                                    members
+                                                    with whom you have exchanged services. Comments received are visible
+                                                    here
+                                                    and on your public profile.</p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p class="fs-6 mb-1 txt-secondary jost-medium">Notice to leave</p>
+                                                <p class="mb-2">You are requested to rate the members with whom you have
+                                                    exchanged services at the end of each transaction. Leave comments
+                                                    are
+                                                    visible here and on their public profile.
+
+
+                                                <div class="text-danger alert alert-danger">You have 0 reviews to leave.
+                                                </div>
+
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <hr>
+                                    <!-- Notification -->
+                                    <div class="p-3">
+                                        <h5 class=" mb-1 txt-primary jost-medium">Notification</h5>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <p class="fs-6 mb-1 txt-secondary jost-medium">Message</p>
+                                                <p class="mb-3">Receive messages from carriers and shippers.</p>
+                                                <div class=" ">
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="email">
+                                                        <label class="form-check-label" for="email">E-mail</label>
+                                                    </div>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="whatsapp">
+                                                        <label class="form-check-label" for="whatsapp">WhatsApp</label>
+                                                    </div>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="sms">
+                                                        <label class="form-check-label" for="sms">SMS</label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p class="fs-6 mb-1 txt-secondary jost-medium">Contact information</p>
+                                                <p class="mb-3">Lorem ipsum dolor sit amet consectetur </p>
+                                                <div class="form-group my-2">
+                                                    <label for="">Email</label>
+                                                    <input type="email" name="" id="" class="form-control">
+                                                </div>
+                                                <div class="form-group my-2">
+                                                    <label for="">SMS</label>
+                                                    <input type="text" name="" id="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 mt-4">
+                                                <p class="fs-6 mb-1 txt-secondary jost-medium">Reminders, promotions and
+                                                    tips</p>
+                                                <p class="mb-3">Receive reminders, practical advice for your journeys
+                                                    and other messages concerning your activities on MonKolis.</p>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="email">
+                                                    <label class="form-check-label" for="email">E-mail</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="whatsapp">
+                                                    <label class="form-check-label" for="whatsapp">WhatsApp</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="sms">
+                                                    <label class="form-check-label" for="sms">SMS</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="phone">
+                                                    <label class="form-check-label" for="phone">Phone Calls</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 mt-4">
+                                                <p class="fs-6 mb-1 txt-secondary jost-medium">Politics and community
+                                                </p>
+                                                <p class="mb-3">eceive news on regulations related to our activity. Keep
+                                                    up to date with initiatives to create fair and responsible laws in
+                                                    your community.</p>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="email">
+                                                    <label class="form-check-label" for="email">E-mail</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="whatsapp">
+                                                    <label class="form-check-label" for="whatsapp">WhatsApp</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="sms">
+                                                    <label class="form-check-label" for="sms">SMS</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="phone">
+                                                    <label class="form-check-label" for="phone">Phone Calls</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <a href="" class="btn btn-theme">Enregister</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <hr>
+                                    <!-- tips -->
+                                    <div class="p-3">
+                                        <p class="fs-6 mb-1 txt-secondary jost-medium">Tips</p>
+                                        <p class="mb-2">Find all your tips in this section.</p>
+                                    </div>
+                                    <hr>
+                                    <!-- change pass -->
+                                    <div class="p-3">
+                                        <p class="fs-6 mb-1 txt-secondary jost-medium">Change Password</p>
+                                        <div class="row">
+                                            <div class="col-lg-6 mx-auto">
+                                                <form action="">
+                                                    <div class="form-group my-2">
+                                                        <label for="">Current Password</label>
+                                                        <input type="password" name="" id="" class="form-control">
+                                                    </div>
+                                                    <div class="form-group my-2">
+                                                        <label for="">New Password</label>
+                                                        <input type="password" name="" id="" class="form-control">
+                                                    </div>
+                                                    <div class="form-group my-2">
+                                                        <label for="">Password Confirmation</label>
+                                                        <input type="password" name="" id="" class="form-control">
+                                                    </div>
+                                                    <div class="form-group my-3">
+                                                        <button class="btn btn-primary">To validate</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- close account -->
+                                    <div class="p-3">
+                                        <p class="fs-6 mb-1 txt-secondary jost-medium">Closure of account</p>
+                                        <div class="row">
+                                            <div class="col-lg-12 mx-auto">
+                                                <form action="">
+                                                    <div class="form-group my-2">
+                                                        <p>
+                                                            Often all it takes is a little help rather than closing your
+                                                            account: <br>
+                                                            To change your phone number or e-mail address: update your
+                                                            profile . <br>
+                                                            If you encounter a technical problem: contact us. <br>
+                                                            To stop receiving emails: manage your notifications. <br>
+                                                            If you received a negative review, remember that it may be
+                                                            insignificant if you have more positive reviews. <br>
+
+                                                            If you really want to close your account, we're sorry. In
+                                                            order for us to continue to improve our service, we simply
+                                                            ask that you give us the reason for your decision.
+                                                        </p>
+                                                        <label for=""> Why do you want to leave? </label>
+                                                        <textarea class="form-control"></textarea>
+                                                    </div>
+                                                    <div class="form-group my-3">
+                                                        <button class="btn btn-danger">Closure of my account</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div> 
                                 </div>
 
                             </div>
 
                         </div>
 
+                    </div>
+                </div>
+            </section>
+
+            <!-- Payments -->
+            <section id="payments" style="scroll-margin-top: 100px;" class="mb-3">
+                <div class="row gx-4">
+                    <div class="col-lg-3">
+                        <div class="card-style bg-white p-4">
+                            <h6 class="mb-0 txt-primary jost-bold"> Payments</h6>
+                            <img src="./images/Payment Information-bro.svg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-9 bg-white card-style p-3">
+                        <div class="row gx-3 gy-3">
+                           <div class="col-lg-4">
+                            <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
+                                <div class="p-3">
+                                    <p class="fs-6 txt-secondary fw-bold text-capitalize mb-1">Money available</p>
+                                    <p class="text-muted pb-2">For the launch phase of the MonKolis platform, the settlement of transactions is carried out directly between the sender and the carrier.
+                                    </p>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="col-lg-4">
+                            <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
+                                <div class="p-3">
+                                    <p class="fs-6 txt-secondary fw-bold text-capitalize mb-1">Collection history</p>
+                                    <p class="text-muted pb-2">For the launch phase of the MonKolis platform, the settlement of transactions is carried out directly between the sender and the carrier.
+                                    </p>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="col-lg-4">
+                            <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
+                                <div class="p-3">
+                                    <p class="fs-6 txt-secondary fw-bold text-capitalize mb-1">Transfer preference</p>
+                                    <p class="text-muted pb-2">or the launch phase of the MonKolis platform, the settlement of transactions is carried out directly between the sender and the carrier.
+                                    </p>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="col-lg-4">
+                            <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
+                                <div class="p-3">
+                                    <p class="fs-6 txt-secondary fw-bold text-capitalize mb-1">Payments made</p>
+                                    <p class="text-muted pb-2">For the launch phase of the MonKolis platform, the settlement of transactions is carried out directly between the sender and the carrier.
+                                    </p>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="col-lg-4">
+                            <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
+                                <div class="p-3">
+                                    <p class="fs-6 txt-secondary fw-bold text-capitalize mb-1">Bank card</p>
+                                    <p class="text-muted pb-2">For the launch phase of the MonKolis platform, the settlement of transactions is carried out directly between the sender and the carrier.
+                                    </p>
+                                </div>
+                            </div>
+                           </div>
+                           
+                        </div>
                     </div>
                 </div>
             </section>
