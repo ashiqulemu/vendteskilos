@@ -12,7 +12,7 @@ a {
 }
 
 .bg-secondary {
-  background: #FF7947;
+  background: #FF7947 !important;
 }
 
 .txt-theme {
@@ -2090,4 +2090,69 @@ svg {
 
 label {
   color: #0067a6;
+}
+
+.howItWorks {
+  height: 92vh;
+  background: url("../images/hiw.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.boxDetails .inner {
+  height: 100%;
+  position: relative;
+}
+.boxDetails .inner .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7607843137);
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+.boxDetails .right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 25px;
+}
+.boxDetails .right::after {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border-left: 30px solid white;
+  border-right: 30px solid transparent;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  left: 0;
+}
+.boxDetails .right .item {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.boxDetails .right .item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.boxDetails .right .item .photo {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  border: 3px solid #2189c9;
+  background: white;
+}
+.boxDetails .right .item .photo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.boxDetails .right .item .content {
+  flex: 1;
 }/*# sourceMappingURL=app.css.map */
