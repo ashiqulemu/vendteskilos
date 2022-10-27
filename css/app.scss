@@ -10,7 +10,7 @@ $dark: #3a4142;
 ::selection {
     color: $white;
     background: $secondary;
-  }
+}
 
 a {
     text-decoration: none;
@@ -278,12 +278,13 @@ body {
 .siteHeader {
     background: #F6F6F6;
     position: relative;
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
 
     .navbar-brand {
-        width: 170px;
+        width: 235px;
+
         img {
-            width: 100%!important;
+            width: 100% !important; 
             @media(max-width:375px) {
                 width: 200px;
             }
@@ -298,7 +299,7 @@ body {
                 color: $primary;
                 padding: 8px 12px;
                 border-radius: 4px;
-                font-family: "jost-bold"; 
+                font-family: "jost-bold";
 
                 &.highlight {
                     background: $secondary;
@@ -322,6 +323,14 @@ body {
                 &.active {
                     color: $secondary;
                 }
+            }
+
+            .dropdown-toggle::after {
+                content: url('../images/arrow.png');
+                right: -16px;
+                position: absolute;
+                border-top: unset;
+                border-left: unset;
             }
 
             .dropdown-item {
@@ -365,7 +374,7 @@ body {
 
 .default {
     background-color: $white;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .gelleryBox {
@@ -1650,7 +1659,7 @@ footer {
 }
 
 .howWorks {
-    background: aliceblue;
+    background: #f7f7f7;
 
     .inner {
         display: flex;
@@ -2177,9 +2186,10 @@ footer {
         .navbar-toggler {
             position: absolute;
             right: 16px;
-            top: 24px;
+            top: 54px;
             outline: 0;
-            &:focus{
+
+            &:focus {
                 box-shadow: none;
             }
         }
@@ -2654,7 +2664,8 @@ label {
     .inner {
         height: 100%;
         position: relative;
-        .overlay{
+
+        .overlay {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2682,7 +2693,7 @@ label {
             border-right: 30px solid transparent;
             border-top: 30px solid transparent;
             border-bottom: 30px solid transparent;
-            left: 0; 
+            left: 0;
         }
 
         .item {
@@ -2699,7 +2710,7 @@ label {
                 overflow: hidden;
                 border-radius: 50%;
                 width: 110px;
-                height: 110px;               
+                height: 110px;
                 background: white;
                 box-shadow: -1px 0px 1px 7px #fdfdfd4a;
                 display: flex;

@@ -224,7 +224,7 @@ body {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 .siteHeader .navbar-brand {
-  width: 170px;
+  width: 235px;
 }
 .siteHeader .navbar-brand img {
   width: 100% !important;
@@ -262,6 +262,13 @@ body {
 .siteHeader .navCustom .nav-item .nav-link.active {
   color: #FF7947;
 }
+.siteHeader .navCustom .nav-item .dropdown-toggle::after {
+  content: url("../images/arrow.png");
+  right: -16px;
+  position: absolute;
+  border-top: unset;
+  border-left: unset;
+}
 .siteHeader .navCustom .nav-item .dropdown-item:hover {
   background-color: #0065AA;
   color: #fff;
@@ -292,7 +299,7 @@ body {
 
 .default {
   background-color: #fff;
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .gelleryBox {
@@ -1297,7 +1304,7 @@ footer .nav-item a:hover {
 }
 
 .howWorks {
-  background: aliceblue;
+  background: #f7f7f7;
 }
 .howWorks .inner {
   display: flex;
@@ -1738,7 +1745,7 @@ footer .nav-item a:hover {
   .navbar.navbar-expand-lg .navbar-toggler {
     position: absolute;
     right: 16px;
-    top: 24px;
+    top: 54px;
     outline: 0;
   }
   .navbar.navbar-expand-lg .navbar-toggler:focus {
