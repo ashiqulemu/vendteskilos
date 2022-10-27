@@ -7,6 +7,11 @@ $white: #fff;
 $title: #054752;
 $dark: #3a4142;
 
+::selection {
+    color: $white;
+    background: $secondary;
+  }
+
 a {
     text-decoration: none;
 }
@@ -276,7 +281,9 @@ body {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 
     .navbar-brand {
+        width: 170px;
         img {
+            width: 100%!important;
             @media(max-width:375px) {
                 width: 200px;
             }
@@ -287,11 +294,11 @@ body {
         .nav-item {
             .nav-link {
                 margin-right: 0;
-                font-size: 16px;
+                font-size: 18px;
                 color: $primary;
                 padding: 8px 12px;
                 border-radius: 4px;
-                font-family: "jost-bold";
+                font-family: "jost-bold"; 
 
                 &.highlight {
                     background: $secondary;
@@ -2170,7 +2177,11 @@ footer {
         .navbar-toggler {
             position: absolute;
             right: 16px;
-            top: 48px;
+            top: 24px;
+            outline: 0;
+            &:focus{
+                box-shadow: none;
+            }
         }
     }
 }
@@ -2499,7 +2510,7 @@ svg {
 
 .blog-details {
     padding: 50px 0;
-    background: #EEF8FE;
+    background: #f7f7f7;
 
     .blog-content {
         .feature-image {
