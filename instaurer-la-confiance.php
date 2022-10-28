@@ -28,154 +28,52 @@
 
 <body>
 
- <!-- header -->
- <section class="siteHeader">
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg py-0">
-                <a class="navbar-brand" href="/">
-                    <img src="./images/logo-vendteskilos.svg" class="img-fluid mx-auto w-75">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
-                    <iconify-icon class="fs-1 txt-primary" icon="charm:menu-hamburger"></iconify-icon>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto navCustom">
-                        <!-- "me-auto" for left align | "ms-auto" for right align | "mx-auto" for center align--->
-                    </ul>
-                    <ul class="navbar-nav ms-auto navCustom">
-                        <!-- "me-auto" for left align | "ms-auto" for right align | "mx-auto" for center align--->
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Vendteskilos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="comment-ca-marche.html">Comment ça marche</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="trips.html">Annonces</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item d-flex align-items-center me-5">
-                            <a class="nav-link highlight" href="#">+ Publier un vol</a>
-                        </li>
-                        <li class="nav-item dropdown d-flex align-items-center">
-                            <a class="nav-link dropdown-toggle pe-1" href="#" id="dropdownItem1" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./images/icons/switch-keyboard-language.svg" width="25px">
-                            </a>
-                            <select name="" id="">
-                                <option value="">Français</option>
-                                <option value="">English </option>
-                            </select>
-                            <!-- <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownItem">
-                            <li><a class="dropdown-item" href="">Connexion</a></li>
-                            <li><a class="dropdown-item" href=" ">Inscription</a></li>
-                        </ul> -->
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="dropdownItem"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <iconify-icon icon="bx:user" class="fs-3 me-1"></iconify-icon> Mon compte
-                                <!-- <img src="./images/icons/switch-keyboard-language.svg" class='me-2' width="25px"> Mon compte -->
-                            </a>
-                            <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownItem">
-                                <li><a class="dropdown-item" href="login.html">Connexion</a></li>
-                                <li><a class="dropdown-item" href="registration.html">Inscription</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </nav>
-
-        </div>
-    </div>
-
-</section>
+  <!-- header -->
+  <?php include 'header.php';?>
+  
 
 <section class="blog-details border-bottom">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mx-auto">
                 <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content p-5">
-                        <div class="col-12 my-4">
-                            <h3 class="section-title">About <span class="txt-primary">Us?</span> </h3>
-                            <h2 class="text-center my-5 fw-bold jost-bold txt-primary">
-                                Lorem ipsum dolor sit amet consectetur
-                            </h2>
-                        </div>
-
+                    <div class="content  px-5"> 
                        <div class="row">
+                        <h2 class=" mt-5 mb-4 fw-bold jost-bold txt-primary">
+                            Instaurer la confiance
+                        </h2>
                         <div class="col-lg-12">
-                            <p align="justify" class="text-muted fs-18">The recording starts with the patter of a summer
-                                squall. Later, a
-                                drifting tone like that of a not-quite-tuned-in radio station rises and for a while
-                                drowns out the patter. These are the sounds encountered by NASA’s Cassini spacecraft as
-                                it dove the gap between Saturn and its innermost ring on April 26, the first of 22 such
-                                encounters before it will plunge into atmosphere in September. What Cassini did not
-                                detect were many of the collisions of dust particles hitting the spacecraft it passed
-                                through the plane of the ringsen the charged particles oscillate in unison.<br><br>
+                            <p align="justify" class="  text-muted fs-18">
+                                L'économie du partage désigne généralement les nouveaux modes de consommation permettant de partager entre consommateurs l'usage ou la consommation de produits, équipements ou services. Une autre notion importante est à prendre en considération dans l'économie du partage, celle de la confiance.  <img src="./images/2022-10-27.png" class=" w-50 float-end mx-auto ">
+                                Chez vendteskilos, afin d'instaurer cette confiance, nous avons mis en place plusieurs outils permettant de vous rassurer sur la fiabilité de notre site collaboratif. 
+                               
+                                
                             </p>
-                            <h4 class="title" align="justify">How its Works ?</h4>
-                            <p align="justify" class="text-muted fs-18">MIAMI — For decades, South Florida schoolchildren and
-                                adults fascinated
-                                by far-off galaxies, earthly ecosystems, the proper ties of light and sound and other
-                                wonders of science had only a quaint, antiquated museum here in which to explore their
-                                interests. Now, with the long-delayed opening of a vast new science museum downtown set
-                                for Monday, visitors will be able to stand underneath a suspended, 500,000-gallon
-                                aquarium tank and gaze at hammerhead and tiger sharks, mahi mahi, devil rays and other
-                                creatures through a 60,000-pound oculus.&nbsp;<br></p>
-                            <p align="justify" class="text-muted fs-18">Lens that will give the impression of seeing the fish
-                                from the bottom of
-                                a huge cocktail glass. And that’s just one of many attractions and exhibits. Officials
-                                at the $305 million Phillip and Patricia Frost Museum of Science promise that it will be
-                                a vivid expression of modern scientific inquiry and exposition. Its opening follows a
-                                series of setbacks and lawsuits and a scramble to finish the 250,000-square-foot
-                                structure. At one point, the project ran precariously short of money. The museum
-                                high-profile opening is especially significant in a state s&nbsp;<br></p>
-    
-                            <h4 align="justify" class="title">Top 5 reason to choose us</h4>
-                            <p align="justify" class="text-muted fs-18">Mauna Loa, the biggest volcano on Earth — and one of
-                                the most active —
-                                covers half the Island of Hawaii. Just 35 miles to the northeast, Mauna Kea, known to
-                                native Hawaiians as Mauna a Wakea, rises nearly 14,000 feet above sea level. To them it
-                                repre sents a spiritual connection between our planet and the heavens above. These
-                                volcanoes, which have beguiled millions of tourists visiting the Hawaiian islands, have
-                                also plagued scientists with a long-running mystery: If they are so close together, how
-                                did they develop in two parallel tracks along the Hawaiian-Emperor chain formed over the
-                                same hot spot in the Pacific Ocean — and why are their chemical compositions so
-                                different? "We knew this was related to something much deeper, but we couldn’t see
-                                what,” said Tim Jones.</p>
+                            <p align="justify" class="text-muted fs-18">Le système de notation est un moyen de mesurer la qualité du service rendu par le transporteur. C'est aussi un moyen pour l'expéditeur de donner son avis sur l'expérience avec la prestation de service. En tant qu'expéditeur, consulter les avis vous aides à vous faire une idée sur le transporteur. Les commentaires sont une partie importante de notre système de notation. Ils sont utilisés pour fournir des commentaires sur le service et sont utilisés comme un moyen pour les utilisateurs de partager leur expérience avec d'autres.
+                                
+                            </p>
+                            <p align="justify" class="text-muted fs-18">Les réseaux sociaux sont un excellent moyen de partager votre expérience avec le monde. Découvrez les membres de la communauté au travers de leurs réseaux sociaux afin d'en savoir plus sur eux et partagé votre expérience sur vendteskilos. Nous effectuons une vérification rigoureuse du profil de tous les utilisateurs avant de les autoriser à s'engager sur notre plateforme. Ce processus comprend une vérification complète des antécédents, ainsi qu'un examen de la présence de l'utilisateur sur les médias sociaux. Nous prenons la sécurité de nos utilisateurs très au sérieux et nous nous engageons à faire en sorte que tous ceux qui utilisent vendteskilos soient en sécurité.
+                            </p>
+                            <p align="justify" class="text-muted fs-18">Avant de procéder à l'expédition, nous vous recommandons vivement d'utiliser notre système de messagerie sécurisée pour communiquer avec le transporteur. La messagerie sécurisée nous permet de communiquer entre vous directement et en toute sécurité par le biais d'une plate-forme à laquelle vous et nous sommes les seuls à pouvoir accéder. C'est important pour plusieurs raisons :
+                            </p>
+
+                            <ol class="list-group list-group-numbered my-4">
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Elle permet de régler les détails et informations de votre envoi.</li>
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Elle permet de suivre vos échanges du début à la fin, de sorte qu'en cas de problème, nous puissions y intervenir rapidement.</li>
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Cras justo odio</li>
+                              </ol>
+                             <p align="justify" class="text-muted fs-18">
+                                <span class="txt-primary jost-bold">Nous sommes là pour vous !</span> <br>
+                                Notre service clientèle est disponible tous les jours. Nous disposons d'une équipe d'experts qui sont là pour vous aider à répondre à toutes les questions ou préoccupations que vous pourriez avoir au sujet de notre produit. Vous pouvez les joindre en envoyant un courriel à <br>
+                                <span class="jost-bold txt-secondary">[adresse électronique]</span> ou en appelant <span class="jost-bold txt-secondary">[numéro de téléphone]</span>.
+                            </p>
     
                         </div>
                         
                        </div>
                     </div>
-                </div>
-
-
-
-
-            </div>
-
-            <div class="team col-lg-12 my-4 ">
-                <div class=" bg-white">
-                    <div class="content shadow-sm rounded-3">  
-                          <img src="./images/Company-pana.svg"
-                           class="img-fluid" alt=""> 
-                    </div>
-                </div>
-
-            </div>
-
-
+                </div> 
+            </div> 
         </div>
     </div>
 </section>
@@ -266,56 +164,8 @@
         </div>
     </section>
 
-    <footer class="footer-bg">
-        <div class="container">
-            <div class="row py-5 col-lg-10 mx-auto">
-                <div class="col-lg-3 text-center">
-                    <img src="./images/logo-vendteskilos.png" class=" img-fluid w-75 mt-4">
-                </div>
-                <div class="col-lg-3">
-                    <p class="mb-2"><a href="about.html" class="d-block link-theme"> Qui sommes-nous ?
-                        </a></p>
-                    <p class="mb-2"><a href="instaurer-la-confiance.html" class="d-block link-theme">Instaurer la confiance</a></p>
-                    <p class="mb-2"><a href="" class="d-block link-theme"> Presse </a></p>
-                    <p class="mb-2"><a href="" class="d-block link-theme"> Nous recrutons </a></p>
-
-                </div>
-                <div class="col-lg-3">
-                    <p class="mb-2"><a href="comment-ca-marche.html" class="d-block link-theme">Comment ça marche </a></p>
-                    <p class="mb-2"><a href="" class="d-block link-theme"> Centre d'aide</a></p>
-                    <p class="mb-2"><a href="" class="d-block link-theme">Transparence du système </a></p>
-                    <p class="mb-2"><a href="all-products-bus.html" class="d-block link-theme">Nous contacter
-                        </a></p>
-
-
-                </div>
-                <div class="col-lg-3">
-                    <p class="mb-2"><a href="" class="d-block link-theme">Mentions Légales </a></p>
-                    <p class="mb-2"><a href="" class="d-block link-theme"> Termes & Conditions </a></p>
-                    <p class="mb-2"><a href="" class="d-block link-theme"> Confidentialité &
-                            Cookies </a></p>
-                    <p class="mb-2"><a href="" class="d-block link-theme"> Produits interdits</a></p>
-                </div>
-
-            </div>
-
-        </div>
-        <div class=" bottom-footer text-center py-4 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9 mx-auto">
-                        <span class="txt-primary fw-bold"> © 2022 Vendteskilos</span> <br>
-                        <small class=" mx-auto text-dark">
-                            vendteskilos a pour objet d'être un véritable réseau communautaire de cobagage. Notre
-                            mission est de mettre en relation des transporteurs et des expéditeurs qui veulent envoyer
-                            ou recevoir un colis
-                            d'un pays A à un pays B à moindre coût sur une plateforme qui inspire confiance et sécurité.
-                        </small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <?php include 'footer.php';?> 
 
 
 
