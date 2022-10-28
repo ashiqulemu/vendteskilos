@@ -81,7 +81,8 @@
                 <div class="col-lg-12 mx-auto">
                     <div class="row">
                         <div class="col-lg-10 mx-auto px-4">
-                            <div class="row my-4 bg-primary p-2 rounded text-white">
+                        <h2 class=" mt-5 mb-4 fw-bold jost-bold txt-primary"> Détail du voyage </h2>
+                            <div class="row my-4 bg-primary p-2 rounded text-white"> 
                                 <div class="col-lg-4 d-flex align-items-center">
                                     <h4 class="mb-0"> Paris <iconify-icon icon="akar-icons:arrow-right-left">
                                         </iconify-icon> Dhaka </h4>
@@ -133,14 +134,13 @@
                                 <div class="col-lg-6">
                                     <div class="shadow-sm border-1 p-3 ">
                                         <p style="text-align: justify;" class="m-0">
-                                            <img src="./images/10.png" class="float-start me-3" alt="" width="60px">
+                                            <img src="./images/user-1.jpg" class="rounded float-start me-3" alt="" width="60px">
 
                                         <h6 class="mb-1 jost-bold fs-18 txt-primary me-1">user name</h6>
                                         <span class="text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing
                                             elit. Dolores, exercitationem!</span>
 
-                                        <a href="" class="btn btn-primary float-end d-block w-100 mt-4">Share on
-                                            Facebook</a>
+                                        
 
                                         </p>
 
@@ -162,6 +162,10 @@
                                     <h6 class="jost-bold txt-primary text-capitalize fs-18">i dont take</h6>
                                     <p class="alert alert-warning"><i>Medicine</i></p>
                                 </div>
+                                <div class="col-lg-12">
+                                <a href="" class="btn btn-primary float-end d-inline mt-2">Share on
+                                            Facebook</a>
+                                </div>
 
                             </div>
 
@@ -170,7 +174,7 @@
                                 <div class="row">
                                     <div class="col-lg-4 position-relative mb-3">
                                         <p style="text-align: justify;" class="m-0">
-                                            <img src="./images/10.png" class="float-start me-3" alt="" width="100px">
+                                            <img src="./images/user-1.jpg" class="rounded float-start me-3" alt="" width="100px">
 
                                         </p>
                                         <h6 class="mb-1 jost-bold fs-18 txt-primary me-1">user name</h6>

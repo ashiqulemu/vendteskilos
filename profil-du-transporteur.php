@@ -74,20 +74,20 @@
 </section>
 
     <!-- trips -->
-    <section class="trips default" style="background-color: aliceblue;">
+    <section class="trips default" style="background-color: #f7f7f7;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mx-auto">
                     <div class="row">
                         <div class="col-lg-10 mx-auto px-4">
-                            <div class="card-style bg-white row p-4  my-4">
-                                <h5 class="fw-bold my-4 txt-primary">User Details </h5>
+                            <div class="card-style bg-white row p-4  my-4"> 
+                                <h2 class=" mt-3 mb-4 fw-bold jost-bold txt-primary"> Détails du transporteur </h2>
                                 <div style="background-color: #f3f6f9;"
                                     class="row position-relative mb-3  w-100 mx-auto  shadow-sm mx-auto border p-4">
 
                                     <div class="col-lg-4 d-flex align-items-center">
                                         <div style="text-align: justify;" class="d-flex align-items-center">
-                                            <img src="./images/10.png" class="float-start me-3" alt="" width="100px">
+                                            <img src="./images/user-1.jpg" class="rounded float-start me-3" alt="" width="90px">
                                             <div>
                                                 <h5 class="mb-0 jost-bold txt-primary ">user name</h5>
                                                 <p>
@@ -149,9 +149,9 @@
 
 
                                 </div>
-                                <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
-                                    <div class="col-lg-7 mt-4">
-                                        <div class="p-4">
+                                <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border p-4">
+                                    <div class="col-lg-7 d-flex align-items-center">
+                                        <div class=" ">
                                             <h5 class=" txt-primary jost-medium mb-1">level of experience</h5>
                                             <p class="text-muted pb-2 fs-18">Lorem ipsum dolor sit amet, consectetur
                                                 adipisicing
@@ -220,10 +220,12 @@
                                     </div>
                                 </div>
                                 <div style="background-color: #f3f6f9;"
-                                    class="row shadow-sm mx-auto border my-3 p-4">
+                                    class="row shadow-sm mx-auto border my-3 p-4  ">
+                                   
                                     <h5 class=" txt-primary jost-medium mb-1">Latest notices received</h5>
-                                    <p class="text-muted pb-2 fs-18">Lorem ipsum dolor sit amet, consectetur
+                                    <p class="text-muted pb-0 fs-18">Lorem ipsum dolor sit amet, consectetur
                                     </p>
+                                     
                                 </div>
                             </div>
 
