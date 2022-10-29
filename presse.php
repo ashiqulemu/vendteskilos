@@ -30,45 +30,63 @@
 
   <!-- header -->
   <?php include 'header.php';?>
+  
 
 <section class="blog-details border-bottom">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mx-auto">
                 <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content p-5">
-                        <div class="col-12 my-4">
-                            <h2 class=" fw-bold jost-bold txt-primary">Qui sommes-nous ? </h2> 
-                        </div>
+                    <div class="content  px-5 pb-5"> 
                        <div class="row">
+                        <h2 class=" mt-5 mb-4 fw-bold jost-bold txt-primary">
+                           Presse
+                        </h2>
                         <div class="col-lg-12">
-                            <p align="justify" class="text-muted fs-18">Nous sommes Vendteskilo, et nous mettons en relation voyageurs et expéditeurs sur une plateforme sécurisée pour assurer le transport<img src="./images/Company-pana.svg" class=" w-50 float-end "> des colis. 
-                             Nous croyons en l'économie du partage : les individus se connectent les uns aux autres pour partager des ressources et réduire les coûts pour toutes les parties concernées.C'est ce que nous faisons chez Vendteskilo. En mettant les voyageurs en relation avec les expéditeurs,  nous pouvons réduire les coûts d'expédition des colis pour tout le monde et donner aux voyageurs un moyen facile de gagner de l'argent supplémentaire en partageant leur espace de bagage libre.Nous assurons la sécurité en veillant à ce que toutes les transactions soient contrôlées par notre équipe d'experts avant d'être effectuées. Si vous êtes prêt à vous lancer, inscrivez-vous dès aujourd'hui !
-                        </p> 
-                           
-    
+                            <p align="justify" class="  text-muted fs-18">
+                            Nombreux sont ceux qui ont de la place dans leurs bagages et qui n'hésitent pas à expédier des colis pour d'autres personnes. Mais trouver quelqu'un pour les expédier à votre place peut être difficile, surtout lorsque vous êtes en déplacement et que vous n'avez pas accès à un ordinateur. 
+                            </p> 
+                            <p align="justify" class="  text-muted fs-18">
+                            C'est pourquoi nous avons créé Vendteskilo : pour mettre en relation des voyageurs avec d'autres personnes prêtes à expédier des colis pour eux. Nous donnons à nos utilisateurs la possibilité de partager leur espace de bagage libre en les mettant en relation avec d'autres utilisateurs qui souhaitent envoyer leurs propres colis, et nous veillons à ce que tout se passe sur notre plateforme sécurisée afin que les deux parties se sentent en sécurité lorsqu'elles font affaire ensemble.
+                            </p> 
                         </div>
+                        <h3 class="my-5 mb-4 fw-bold jost-bold txt-secondary">
+                            Éléments de presse
+                             </h3> 
+                             <div class="col-lg-4 ">
+                               <div class="card bg-primary py-3 shadow-sm mx-auto text-center d-flex align-items-center">
+                                 <div>
+                                 <img src="./images/Editing body text-amico.svg" class="mx-auto w-50  mb-3" alt="">
+                                <h5 class="text-white jost-bold my-1">Contact</h5> 
+                                <h6 class="txt-secondary jost-medium">presse@vendteskilos.com</h6> 
+                                 </div>
+                               </div>
+                             </div>
+                             <div class="col-lg-4 ">
+                               <div class="card bg-primary py-3 shadow-sm mx-auto text-center d-flex align-items-center">
+                                 <div>
+                                 <img src="./images/Journalist-bro.svg" class="mx-auto w-50  mb-3" alt="">
+                                <h5 class="text-white jost-bold my-1">Dossier de presse</h5> 
+                                <h6 class="txt-secondary jost-medium">[link]</h6> 
+                                 </div>
+                               </div>
+                             </div>
+                             <div class="col-lg-4 ">
+                               <div class="card bg-primary py-3 shadow-sm mx-auto text-center d-flex align-items-center">
+                                 <div>
+                                 <img src="./images/Progress overview-cuate.svg" class="mx-auto w-50  mb-3" alt="">
+                                <h5 class="text-white jost-bold my-1">Éléments graphiques </h5> 
+                                <h6 class="txt-secondary jost-medium">[link]</h6> 
+                                 </div>
+                               </div>
+                             </div>
+                            
                         
                        </div>
+                        
                     </div>
-                </div>
-
-
-
-
-            </div>
-
-            <!-- <div class="team col-lg-12 my-4 ">
-                <div class=" bg-white">
-                    <div class="content shadow-sm rounded-3">  
-                          <img src="./images/"
-                           class="img-fluid" alt=""> 
-                    </div>
-                </div>
-
-            </div> -->
-
-
+                </div> 
+            </div> 
         </div>
     </div>
 </section>

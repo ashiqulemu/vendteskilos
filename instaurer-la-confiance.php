@@ -60,7 +60,7 @@
                             <ol class="list-group list-group-numbered my-4">
                                 <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Elle permet de régler les détails et informations de votre envoi.</li>
                                 <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Elle permet de suivre vos échanges du début à la fin, de sorte qu'en cas de problème, nous puissions y intervenir rapidement.</li>
-                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Cras justo odio</li>
+                                
                               </ol>
                              <p align="justify" class="text-muted fs-18">
                                 <span class="txt-primary jost-bold">Nous sommes là pour vous !</span> <br>

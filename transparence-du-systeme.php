@@ -30,45 +30,89 @@
 
   <!-- header -->
   <?php include 'header.php';?>
+  
 
 <section class="blog-details border-bottom">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mx-auto">
                 <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content p-5">
-                        <div class="col-12 my-4">
-                            <h2 class=" fw-bold jost-bold txt-primary">Qui sommes-nous ? </h2> 
-                        </div>
+                    <div class="content  p-5"> 
                        <div class="row">
+                        <h2 class=" mb-4 fw-bold jost-bold txt-primary">
+                        Transparence du système ?
+                        </h2>
                         <div class="col-lg-12">
-                            <p align="justify" class="text-muted fs-18">Nous sommes Vendteskilo, et nous mettons en relation voyageurs et expéditeurs sur une plateforme sécurisée pour assurer le transport<img src="./images/Company-pana.svg" class=" w-50 float-end "> des colis. 
-                             Nous croyons en l'économie du partage : les individus se connectent les uns aux autres pour partager des ressources et réduire les coûts pour toutes les parties concernées.C'est ce que nous faisons chez Vendteskilo. En mettant les voyageurs en relation avec les expéditeurs,  nous pouvons réduire les coûts d'expédition des colis pour tout le monde et donner aux voyageurs un moyen facile de gagner de l'argent supplémentaire en partageant leur espace de bagage libre.Nous assurons la sécurité en veillant à ce que toutes les transactions soient contrôlées par notre équipe d'experts avant d'être effectuées. Si vous êtes prêt à vous lancer, inscrivez-vous dès aujourd'hui !
-                        </p> 
-                           
-    
+                            <p align="justify" class="  text-muted fs-18">
+                            Vous trouverez ci-dessous des informations sur le référencement et le classement des voyages sur notre plateforme et la modération des avis conformément à la réglementation en vigueur.
+                            <img src="./images/Code review-bro.svg" class=" w-50 float-end mx-auto "> Si vous avez des questions à ce sujet, n'hésitez pas à nous contacter via ce formulaire. 
+                            </p>
+                            <h5 class='jost-bold txt-secondary'>1. Référencement et classement des voyages dans la page des annonces
+</h5>
+                            <p align="justify" class="text-muted fs-18">Il n'y a pas d'engagements de capital ou de récompenses entre les membres de la communauté et Vendteskilos qui pourraient affecter les références ou le classement des publicités sur la plateforme. Ceci s'applique également aux voyageurs éligibles pour publier leurs voyages sur la Plateforme.
+                                
+                            </p>
+                            <p align="justify" class="text-muted fs-18">Les voyages qui répondent aux critères suivants sont publiés et affichés dans les résultats de recherche :
+                            </p>
+                            
+
+                            <ol class="list-group list-group-numbered my-4">
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consectetur eaque labore eius, natus omnis.
+                                    
+                                </li>
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consectetur eaque labore eius, natus omnis.
+
+                                </li>
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consectetur eaque labore eius, natus omnis.
+
+                                </li>
+                              
+                                
+                              </ol>
+                              <p align="justify" class="text-muted fs-18">En outre, si vous ne respectez pas nos conditions d'utilisation, nous pouvons déréférencer vos annonces et/ou suspendre votre compte.
+De plus, si vous utilisez la Plateforme en tant que transporteur, vous vous engagez à :
+
+                            </p>
+                            <ol class="list-group list-group-numbered my-4">
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consectetur eaque labore eius, natus omnis.
+                                    
+                                </li>
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consectetur eaque labore eius, natus omnis.
+
+                                </li>
+                                <li class="list-group-item my-2 shadow-sm border-0 bg-primary text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consectetur eaque labore eius, natus omnis.
+
+                                </li>
+                              
+                                
+                              </ol>
+      <p align="justify" class="text-muted fs-18">Par défaut, les trajets sont triés chronologiquement en premier sur la plateforme. Du départ le plus procher au départ le plus tardif, selon l'heure de départ de l'itinéraire émis par la compagnie aérienne, puis classé dans l'ordre du prix le plus bas au prix le plus élevé. Les membres peuvent choisir d'autres critères de classement, trouvez le prix le plus bas et filtrez les résultats en fonction des options disponibles.
+</p>
+<h5 class='jost-bold txt-secondary'>2. Contrôle des avis
+
+</h5> 
+<p align="justify" class="text-muted fs-18">Chaque commentaire peut être soumis à un système de surveillance automatisé avant d'être publié afin d'identifier les éléments qui contredisent clairement nos conditions d'utilisation.
+
+                            </p>
+<p align="justify" class="text-muted fs-18">Lorsque le système détecte un problème dans un avis, celui-ci est examiné manuellement par l'équipe pour maintenir la qualité des avis sur la plateforme et s'assurer que les 
+
+                            </p>
+<p align="justify" class="text-muted fs-18">membres respectent les conditions d'utilisation. Si nous refusons de publier votre article, nous vous informerons par e-mail du refus et du motif.
+
+                            </p>
+<p align="justify" class="text-muted fs-18">Il n'y a pas de compensation pour les membres qui laissent des avis sur l'expéditeur du colis.
+
+Les avis seront conservés jusqu'à la suppression du compte.
+Les avis postés par ordre chronologique sur le profil de chaque membre.
+
+
+                            </p>
                         </div>
                         
                        </div>
                     </div>
-                </div>
-
-
-
-
-            </div>
-
-            <!-- <div class="team col-lg-12 my-4 ">
-                <div class=" bg-white">
-                    <div class="content shadow-sm rounded-3">  
-                          <img src="./images/"
-                           class="img-fluid" alt=""> 
-                    </div>
-                </div>
-
-            </div> -->
-
-
+                </div> 
+            </div> 
         </div>
     </div>
 </section>

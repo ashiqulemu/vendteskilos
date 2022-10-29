@@ -30,45 +30,58 @@
 
   <!-- header -->
   <?php include 'header.php';?>
+  
 
-<section class="blog-details border-bottom">
+<section class="blog-details border-bottom" style="background:aliceblue;">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 mx-auto">
-                <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content p-5">
-                        <div class="col-12 my-4">
-                            <h2 class=" fw-bold jost-bold txt-primary">Qui sommes-nous ? </h2> 
-                        </div>
-                       <div class="row">
-                        <div class="col-lg-12">
-                            <p align="justify" class="text-muted fs-18">Nous sommes Vendteskilo, et nous mettons en relation voyageurs et expéditeurs sur une plateforme sécurisée pour assurer le transport<img src="./images/Company-pana.svg" class=" w-50 float-end "> des colis. 
-                             Nous croyons en l'économie du partage : les individus se connectent les uns aux autres pour partager des ressources et réduire les coûts pour toutes les parties concernées.C'est ce que nous faisons chez Vendteskilo. En mettant les voyageurs en relation avec les expéditeurs,  nous pouvons réduire les coûts d'expédition des colis pour tout le monde et donner aux voyageurs un moyen facile de gagner de l'argent supplémentaire en partageant leur espace de bagage libre.Nous assurons la sécurité en veillant à ce que toutes les transactions soient contrôlées par notre équipe d'experts avant d'être effectuées. Si vous êtes prêt à vous lancer, inscrivez-vous dès aujourd'hui !
-                        </p> 
-                           
-    
-                        </div>
-                        
+        <div class="row gx-4  ">
+                    <div class="col-lg-3">
+                        <div class="card-style bg-white p-4">
+                        <div class="m-0 text-center ">
+                                <img src="./images/user-1.jpg" class="img-fluid me-3 rounded" >
+                                  <h5 class="mb-1 jost-bold txt-primary mt-3">User Name</h5>  
+                                  <small class="mb-1 jost-bold text-danger jost-regular mt-3">Report goes to this User</small>  
                        </div>
+                          
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-9 bg-white card-style p-3">
+
+                        <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border p-4">
+                           <form action="">
+                              <div class="row">
+                              <div class="col-lg-12">
+                                                <h5 class="my-4 txt-secondary jost-medium">Signaler un transporteu</h5>
+                              </div>
+                              <div class="col-lg-4 mb-3">
+                                                <label for="">First name</label>
+                                                <input type="text" value='User Name' class="form-control">
+                               </div>
+                              <div class="col-lg-4 mb-3">
+                                                <label for="">Telephone</label>
+                                                <input type="text" class="form-control">
+                               </div>
+                              <div class="col-lg-4 mb-3">
+                                                <label for="">Email</label>
+                                                <input type="text" class="form-control">
+                               </div>
+                               <div class="col-lg-12">
+                               <label for="">message </label>
+                                                <textarea name="" class="form-control" id="" cols="10" rows="5"></textarea>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <button class="btn btn-theme my-4">Sent</button>
+                                            </div>
+                              </div>
+                           </form>
+                        </div>
+                       
+                       
                     </div>
                 </div>
-
-
-
-
-            </div>
-
-            <!-- <div class="team col-lg-12 my-4 ">
-                <div class=" bg-white">
-                    <div class="content shadow-sm rounded-3">  
-                          <img src="./images/"
-                           class="img-fluid" alt=""> 
-                    </div>
-                </div>
-
-            </div> -->
-
-
         </div>
     </div>
 </section>

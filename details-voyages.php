@@ -233,8 +233,8 @@
                                         </p>
                                     </div>
                                     <div class="col-lg-2"> 
-                                        <a href="carrier-profile.html" class="mx-1 btn btn-theme float-end mt-4 text-capitalize">View Profile</a>
-                                        <a href="" class="mx-1 btn btn-theme bg-danger float-end mt-4 text-capitalize">report user</a>
+                                        <a href="profil-du-transporteur.php" class="mx-1 btn btn-theme float-end mt-4 text-capitalize">View Profile</a>
+                                        <a href="signaler-un-transporteur.php" class="mx-1 btn btn-theme bg-danger float-end mt-4 text-capitalize">report user</a>
                                        
                                     </div>
 

@@ -196,7 +196,7 @@
                         <div class="col-lg-6 p-4">
                             <div class="row mt-4">
                                 <!-- loop start -->
-<a href ="/trips-details.html">
+<a href ="/details-voyages.php">
                                 <div class="trip-card card-style">
                                     <div class="profile">
                                         <div class="user">
@@ -267,7 +267,7 @@
                         <div class="col-lg-6 p-4">
                             <div class="row mt-4">
                                 <!-- loop start -->
-<a href ="/trips-details.html">
+<a href ="/details-voyages.php">
                                 <div class="trip-card card-style">
                                     <div class="profile">
                                         <div class="user">
