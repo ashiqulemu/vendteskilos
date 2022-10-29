@@ -9,8 +9,8 @@
         <div class="row">
             <div class="col-lg-12 mx-auto">
                 <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content  p-5 contact-bg"> 
-                       <div class="row p-4">
+                    <div class="content  contact-bg"> 
+                       <div class="row page-gap">
                         <h2 class=" mb-4 fw-bold jost-bold txt-primary">
                         Contact
                         </h2>
@@ -29,7 +29,7 @@
                                         <input type="text" class="form-control">
                                    </div>
                                     <div class="col-lg-4 mb-3">
-                                        <label for="">Prénoms </label>
+                                        <label for="">Prénoms</label>
                                         <input type="text" class="form-control">
                                    </div>
                                     <div class="col-lg-4 mb-3">

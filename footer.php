@@ -2,17 +2,16 @@
 <footer class="footer-bg">
         <div class="container">
             <div class="row py-5 col-lg-10 mx-auto">
-                <div class="col-lg-3 text-center">
-                   <a href="index.php"> <img src="./images/logo-vendteskilos.png" class=" img-fluid w-75 mt-4"></a>
+            <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                   <a href="index.php"> <img src="./images/logo-vendteskilos.png" class=" img-fluid w-100 "></a>
                 </div>
                 <div class="col-lg-3">
                     <p class="mb-2"><a href="a-propos.php" class="d-block link-theme"> Qui sommes-nous ?
                         </a>
-                    </p>
-                     
+                    </p> 
                     <p class="mb-2"><a href="instaurer-la-confiance.php" class="d-block link-theme">Instaurer la confiance</a></p>
                     <p class="mb-2"><a href="presse.php" class="d-block link-theme"> Presse </a></p>
-                    <p class="mb-2"><a href="#" class="d-block link-theme"> Nous recrutons </a></p>
+                    <p class="mb-2"><a href="#" class="d-block link-theme"> Nous recrutons </a></p> 
 
                 </div>
                 <div class="col-lg-3">
@@ -22,6 +21,7 @@
                     <p class="mb-2"><a href="contact.php" class="d-block link-theme">Nous contacter
                         </a>
                     </p>
+                    
                 </div>
                 <div class="col-lg-3">
                     <p class="mb-2"><a href="mentions-légales.php" class="d-block link-theme">Mentions Légales </a></p>

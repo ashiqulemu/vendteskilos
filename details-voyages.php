@@ -67,7 +67,7 @@
                                 </div>
                             </div>
 
-                            <div class="row card-style bg-white p-4 fs-18">
+                            <div class="row card-style bg-white p-4 fs-18 ">
                                 <div class="col-lg-6 ">
                                     <p class="d-flex align-items-center">
                                         <iconify-icon class="fs-5 txt-primary me-2" icon="clarity:plane-line">
@@ -205,7 +205,7 @@
                                         </p>
                                     </div>
                                     <div class="col-lg-2"> 
-                                        <a href="profil-du-transporteur.php" class="mx-1 btn btn-theme float-end mt-4 text-capitalize">View Profile</a>
+                                        <a href="tableau-de-bord-utilisateur.php#trips" class="mx-1 btn btn-theme float-end mt-4 text-capitalize">View Profile</a>
                                         <a href="signaler-un-transporteur.php" class="mx-1 btn btn-theme bg-danger float-end mt-4 text-capitalize">report user</a>
                                        
                                     </div>

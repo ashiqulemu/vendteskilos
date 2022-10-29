@@ -59,7 +59,7 @@
                                 <a class="nav-link" href="contact.php">Contact</a>
                             </li>
                             <li class="nav-item d-flex align-items-center me-5">
-                                <a class="nav-link highlight" href="#">+ Publier un vol</a>
+                                <a class="nav-link highlight" href="tableau-de-bord-utilisateur.php#trips">+ Publier un vol</a>
                             </li>
                             <!-- <li class="nav-item dropdown d-flex align-items-center">
                                 <a class="nav-link dropdown-toggle pe-1" href="#" id="dropdownItem1" role="button"

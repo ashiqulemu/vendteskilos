@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-lg-12 ">
                     <div class=" blog-content bg-white shadow-sm rounded-3">
-                        <div class="row mx-auto p-5">
-                            <div class="col-lg-6 py-2 d-flex align-items-center px-2"> 
+                        <div class="row mx-auto page-gap">
+                            <div class="col-lg-6 py-2 d-flex align-items-center"> 
                                 <div class="inner">
                                     <div class="left d-none"> </div>
                                     <div class="right">
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 py-2 d-flex align-items-center">
-                                <img src="./images/Mind map-pana.svg" class="img-fluid mx-auto wow fadeInRight w-75"
+                                <img src="./images/Mind map-pana.svg" class="img-fluid mx-auto wow fadeInRight w-100"
                                     style="visibility: visible; animation-name: fadeInRight;">
                             </div>
                         </div>

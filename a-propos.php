@@ -8,13 +8,13 @@
         <div class="row">
             <div class="col-lg-12 mx-auto">
                 <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content p-5">
-                        <div class="col-12 my-4">
+                    <div class="content page-gap">
+                        <div class="col-12 mb-4">
                             <h2 class=" fw-bold jost-bold txt-primary">Qui sommes-nous ? </h2> 
                         </div>
                        <div class="row">
                         <div class="col-lg-12">
-                            <p align="justify" class="text-muted fs-18">Nous sommes Vendteskilo, et nous mettons en relation voyageurs et expéditeurs sur une plateforme sécurisée pour assurer le transport<img src="./images/Company-pana.svg" class=" w-50 float-end "> des colis. 
+                            <p align="justify" class="text-muted fs-18 mb-0">Nous sommes Vendteskilo, et nous mettons en relation voyageurs et expéditeurs sur une plateforme sécurisée pour assurer le transport<img src="./images/Company-pana.svg" class=" w-50 float-end "> des colis. 
                              Nous croyons en l'économie du partage : les individus se connectent les uns aux autres pour partager des ressources et réduire les coûts pour toutes les parties concernées.C'est ce que nous faisons chez Vendteskilo. En mettant les voyageurs en relation avec les expéditeurs,  nous pouvons réduire les coûts d'expédition des colis pour tout le monde et donner aux voyageurs un moyen facile de gagner de l'argent supplémentaire en partageant leur espace de bagage libre.Nous assurons la sécurité en veillant à ce que toutes les transactions soient contrôlées par notre équipe d'experts avant d'être effectuées. Si vous êtes prêt à vous lancer, inscrivez-vous dès aujourd'hui !
                         </p> 
                            

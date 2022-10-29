@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-lg-12 mx-auto">
                 <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content  p-5"> 
+                    <div class="content page-gap"> 
                        <div class="row">
                         <h2 class=" mb-4 fw-bold jost-bold txt-primary">
                         Transparence du système ?

@@ -12,7 +12,7 @@
                         <div class="card-style bg-white p-4">
                         <div class="m-0 text-center ">
                                 <img src="./images/user-1.jpg" class="img-fluid me-3 rounded" >
-                                  <h5 class="mb-1 jost-bold txt-primary mt-3">User Name</h5>   
+                                  <h5 class="mb-1 jost-bold txt-primary mt-3">Ngoran Ahoua</h5>   
                                    <small class="mb-1 jost-bold text-danger jost-regular mt-3">Report goes to this User</small>   
                        </div>
                           
@@ -32,7 +32,7 @@
                               </div>
                               <div class="col-lg-4 mb-3">
                                                 <label for="">First name</label>
-                                                <input type="text" value='User Name' class="form-control">
+                                                <input type="text" value='ashiqul emu' class="form-control">
                                </div>
                               <div class="col-lg-4 mb-3">
                                                 <label for="">Telephone</label>
@@ -40,10 +40,10 @@
                                </div>
                               <div class="col-lg-4 mb-3">
                                                 <label for="">Email</label>
-                                                <input type="text" class="form-control" value="email@user.com">
+                                                <input type="text" class="form-control" value="email@emu.com">
                                </div>
                                <div class="col-lg-12">
-                               <label for="">message </label>
+                               <label for="">Report your message </label>
                                                 <textarea name="" class="form-control" id="" cols="10" rows="5"></textarea>
                                             </div>
                                             <div class="col-lg-12">

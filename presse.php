@@ -9,9 +9,9 @@
         <div class="row">
             <div class="col-lg-12 mx-auto">
                 <div class="blog-content bg-white shadow-sm rounded-3">
-                    <div class="content  px-5 pb-5"> 
+                    <div class="content page-gap"> 
                        <div class="row">
-                        <h2 class=" mt-5 mb-4 fw-bold jost-bold txt-primary">
+                        <h2 class=" mb-4 fw-bold jost-bold txt-primary">
                            Presse
                         </h2>
                         <div class="col-lg-12">

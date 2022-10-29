@@ -672,7 +672,7 @@
      <!-- Footer -->
      <?php include 'footer.php';?>  
     
-    <!-- Button trigger modal -->
+ 
 
     
 

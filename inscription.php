@@ -75,6 +75,9 @@
             </div>
         </div>
     </section>
+
+         <!-- Footer -->
+         <?php include 'footer.php';?>  
     
     <script src="js/bootstrap-5.bundle.min.js"></script>
     <script src="js/iconify.min.js"></script>
