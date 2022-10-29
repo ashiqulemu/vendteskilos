@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- FOR SEO -->
-    <!-- <meta property='og:title' content='Custom Notion-styled Avatar Icon'/>
-    <meta property='og:image' content='./assets/images/link.jpg'/> 
-    <meta property='og:description' content='DESCRIPTION OF YOUR SITE'/>
-    <meta property='og:url' content='URL OF YOUR WEBSITE'/>
-    <meta property='og:image:width' content='1200' />
-    <meta property='og:image:height' content='627' />
-    <meta property="og:type" content='website'/> -->
-
-    <title>Vendteskilos</title>
-    <link rel="icon" href="./images/favi.png">
-    <link rel="stylesheet" href="css/bootstrap-5.1.3min.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
-    <link href="./css/select2.min.css" rel="stylesheet" />
-    <link href="./css/animate.min.css" rel="stylesheet" />
-</head>
-<!-- oncontextmenu="return false;" -->
-
-<body>
 
   <!-- header -->
   <?php include 'header.php';?>
