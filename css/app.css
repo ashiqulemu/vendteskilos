@@ -2214,4 +2214,8 @@ label {
   background-repeat: no-repeat;
   background-position: 39% 57%;
   padding: 60px 20px !important;
+}
+
+.page-gap {
+  padding: 3rem 8rem 8rem 8rem;
 }/*# sourceMappingURL=app.css.map */

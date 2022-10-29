@@ -56,7 +56,7 @@
                                 <a class="nav-link" href="voyages.php">Annonces</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="contact.php">Contact</a>
                             </li>
                             <li class="nav-item d-flex align-items-center me-5">
                                 <a class="nav-link highlight" href="#">+ Publier un vol</a>

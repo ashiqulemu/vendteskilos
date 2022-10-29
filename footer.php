@@ -7,7 +7,9 @@
                 </div>
                 <div class="col-lg-3">
                     <p class="mb-2"><a href="a-propos.php" class="d-block link-theme"> Qui sommes-nous ?
-                        </a></p>
+                        </a>
+                    </p>
+                     
                     <p class="mb-2"><a href="instaurer-la-confiance.php" class="d-block link-theme">Instaurer la confiance</a></p>
                     <p class="mb-2"><a href="presse.php" class="d-block link-theme"> Presse </a></p>
                     <p class="mb-2"><a href="#" class="d-block link-theme"> Nous recrutons </a></p>
@@ -17,13 +19,13 @@
                     <p class="mb-2"><a href="comment-ca-marche.php" class="d-block link-theme">Comment ça marche </a></p>
                     <p class="mb-2"><a href="centre-d-aide.php" class="d-block link-theme"> Centre d'aide</a></p>
                     <p class="mb-2"><a href="transparence-du-systeme.php" class="d-block link-theme">Transparence du système </a></p>
-                    <p class="mb-2"><a href="#" class="d-block link-theme">Nous contacter
+                    <p class="mb-2"><a href="contact.php" class="d-block link-theme">Nous contacter
                         </a>
                     </p>
                 </div>
                 <div class="col-lg-3">
-                    <p class="mb-2"><a href="#" class="d-block link-theme">Mentions Légales </a></p>
-                    <p class="mb-2"><a href="#" class="d-block link-theme"> Termes & Conditions </a></p>
+                    <p class="mb-2"><a href="mentions-légales.php" class="d-block link-theme">Mentions Légales </a></p>
+                    <p class="mb-2"><a href="termes-et-conditions.php" class="d-block link-theme"> Termes et conditions </a></p>
                     <p class="mb-2"><a href="#" class="d-block link-theme"> Confidentialité &
                             Cookies </a></p>
                     <p class="mb-2"><a href="#" class="d-block link-theme"> Produits interdits</a></p>

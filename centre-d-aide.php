@@ -8,8 +8,8 @@
         <div class="blog-content bg-white shadow-sm rounded-3">
           <div class="content  p-5">
             <div class="row">
-              <h2 class=" mb-4 fw-bold jost-bold txt-primary"> Bienvenue sur le Centre d'aide </h2>
-              <h5 class="mt-4 mb-4 fw-bold jost-bold "> Frequently Asked Questions </h5>
+              <h2 class=" mb-5 fw-bold jost-bold txt-primary"> Bienvenue sur le Centre d'aide </h2>
+              
               <div class="col-lg-12">
                 <!-- <p align="justify" class="  text-muted fs-18">
                                 L'économie du partage désigne généralement les nouveaux modes de consommation permettant de partager entre consommateurs l'usage ou la consommation de produits, équipements ou services. Une autre notion importante est à prendre en considération dans l'économie du partage, celle de la confiance.  <img src="./images/2022-10-27.png" class=" w-50 float-end mx-auto ">

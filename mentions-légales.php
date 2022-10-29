@@ -4,58 +4,48 @@
   <?php include 'header.php';?>
   
 
-<section class="blog-details border-bottom" style="background:aliceblue;">
+<section class="blog-details border-bottom">
     <div class="container">
         <div class="row">
-        <div class="row gx-4  ">
-                    <div class="col-lg-3">
-                        <div class="card-style bg-white p-4">
-                        <div class="m-0 text-center ">
-                                <img src="./images/user-1.jpg" class="img-fluid me-3 rounded" >
-                                  <h5 class="mb-1 jost-bold txt-primary mt-3">User Name</h5>   
-                                   <small class="mb-1 jost-bold text-danger jost-regular mt-3">Report goes to this User</small>   
+            <div class="col-lg-12 mx-auto">
+                <div class="blog-content bg-white shadow-sm rounded-3">
+                    <div class="content  px-5"> 
+                       <div class="row">
+                        <h2 class=" mt-5 mb-4 fw-bold jost-bold txt-primary">
+                        Mentions légales
+                        </h2>
+                        <div class="col-lg-12">
+                            <p align="justify" class="  text-muted fs-18">
+                            Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'Economie Numérique, dite L.C.E.N., les utilisateurs du site vendteskilos.com ont droit aux présentes Notifications légales vous en informeront.
+                            <img src="./images/Law firm-bro.svg" class=" w-50 float-end mx-auto ">
+                            La connexion et la navigation sur le site vendteskilos.com par l'utilisateur vaut acceptation pleine et entière des présentes mentions légales.
+
+                            </p>
+
+                            <h5 class="jost-medium txt-secondary">Éditeur</h5> 
+                            <p align="justify" class="  text-muted fs-18">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta sapien in risus ultrices, et aliquam elit viverra. Quisque sit amet blandit magna, vehicula blandit orci. Curabitur venenatis bibendum porttitor. Cras at pulvinar lectus.
+                            </p>
+
+                            <h5 class="jost-medium txt-secondary">Responsable de publication</h5> 
+                            <p align="justify" class="  text-muted fs-18">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta sapien in risus ultrices, et aliquam elit viverra. Quisque sit amet  
+                            </p>
+                            <h5 class="jost-medium txt-secondary">Hébergeur</h5> 
+                            <p align="justify" class="  text-muted fs-18">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta sapien in risus ultrices, et aliquam elit viverra. Quisque sit amet blandit magna, vehicula blandit orci. Curabitur venenatis bibendum porttitor. Cras at pulvinar lectus. 
+                            </p>
+                            <h5 class="jost-medium txt-secondary">Accès au site</h5> 
+                            <p align="justify" class="  text-muted fs-18">
+                            Le site est accessible de partout, 24 heures sur 24, 7 jours sur 7, sauf cas de force majeure, interruption programmée ou non, et éventuellement nécessité de maintenance. Le site sendbyzen.com n'est pas responsable de toute modification, interruption ou cessation de service.
+                            </p>
+
+                        </div>
+                        
                        </div>
-                          
-
-                        </div>
-
                     </div>
-                    <div class="col-lg-9 bg-white card-style p-3">
-
-                        <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border p-4">
-                           <form action="">
-                              <div class="row">
-                              <div class="col-lg-12">
-                                                <h5 class="mt-4 txt-secondary jost-medium">Signaler un transporteur</h5>
-                                                
-                                                <h6 class="mt-3 txt-primary jost-bold">Your information</h6> 
-                              </div>
-                              <div class="col-lg-4 mb-3">
-                                                <label for="">First name</label>
-                                                <input type="text" value='User Name' class="form-control">
-                               </div>
-                              <div class="col-lg-4 mb-3">
-                                                <label for="">Telephone</label>
-                                                <input type="text" class="form-control" value="+88014504054">
-                               </div>
-                              <div class="col-lg-4 mb-3">
-                                                <label for="">Email</label>
-                                                <input type="text" class="form-control" value="email@user.com">
-                               </div>
-                               <div class="col-lg-12">
-                               <label for="">message </label>
-                                                <textarea name="" class="form-control" id="" cols="10" rows="5"></textarea>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <button class="btn btn-theme my-4">Sent</button>
-                                            </div>
-                              </div>
-                           </form>
-                        </div>
-                       
-                       
-                    </div>
-                </div>
+                </div> 
+            </div> 
         </div>
     </div>
 </section>

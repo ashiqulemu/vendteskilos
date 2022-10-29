@@ -46,11 +46,11 @@
                                    </div>
                                     <div class="col-lg-4 mb-3">
                                         <label for="">Titre du message </label>
-                                        <textarea class="form-control"></textarea>
+                                        <input type="text" class="form-control">
                                    </div>
                                     <div class="col-lg-8 mb-3">
                                         <label for=""> message </label>
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" rows="5"></textarea>
                                    </div>
                                     <div class="col-lg-8 my-4">
                                         <button class="btn btn-theme">Envoyer votre message</button>

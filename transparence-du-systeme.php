@@ -15,7 +15,7 @@
                         <div class="col-lg-12">
                             <p align="justify" class="  text-muted fs-18">
                             Vous trouverez ci-dessous des informations sur le référencement et le classement des voyages sur notre plateforme et la modération des avis conformément à la réglementation en vigueur.
-                            <img src="./images/Code review-bro.svg" class=" w-50 float-end mx-auto "> Si vous avez des questions à ce sujet, n'hésitez pas à nous contacter via ce formulaire. 
+                            <img src="./images/Code review-bro.svg" class=" w-50 float-end mx-auto "> Si vous avez des questions à ce sujet, n'hésitez pas à nous contacter via <a class="txt-secondary" href="contact.php">ce formulaire</a> 
                             </p>
                             <h5 class='jost-bold txt-secondary'>1. Référencement et classement des voyages dans la page des annonces
 </h5>
