@@ -2021,7 +2021,7 @@ svg {
 }
 .blog-details {
   padding: 50px 0;
-  background: #f7f7f7;
+  background: aliceblue;
 }
 .blog-details .blog-content .feature-image img {
   width: 100%;
@@ -2206,4 +2206,12 @@ label {
 .accordion-button {
   color: #0065AA;
   font-size: 18px;
+}
+
+.contact-bg {
+  background-image: url("../images/contact-bg-01.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 39% 57%;
+  padding: 60px 20px !important;
 }/*# sourceMappingURL=app.css.map */

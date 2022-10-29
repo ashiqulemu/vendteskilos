@@ -2520,7 +2520,7 @@ svg {
 
 .blog-details {
     padding: 50px 0;
-    background: #f7f7f7;
+    background: aliceblue;
 
     .blog-content {
         .feature-image {
@@ -2746,4 +2746,12 @@ label {
 .accordion-button{
     color: $primary;
     font-size: 18px;
+}
+
+.contact-bg{
+    background-image: url('../images/contact-bg-01.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 39% 57%;
+    padding: 60px 20px!important;
 }
