@@ -284,7 +284,8 @@ body {
         width: 235px;
 
         img {
-            width: 100% !important; 
+            width: 100% !important;
+
             @media(max-width:375px) {
                 width: 200px;
             }
@@ -2730,35 +2731,51 @@ label {
         }
     }
 }
+
 .accordion-button:not(.collapsed) {
     color: #ffffff;
-    background-color: #ff5722!important;
+    background-color: #ff5722 !important;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-     
-}
-.accordion-button:focus{
-    box-shadow: none;
-}
-.accordion-button:not(.collapsed)::after{
-    background-image: url('../images/accordion-arrow.svg')!important;
+
 }
 
-.accordion-button{
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../images/accordion-arrow.svg') !important;
+}
+
+.accordion-button {
     color: $primary;
     font-size: 18px;
 }
 
-.contact-bg{
+.contact-bg {
     background-image: url('../images/contact-bg-01.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 39% 57%; 
+    background-position: 39% 57%;
 }
 
-.page-gap{
-    padding:3rem 8rem 8rem 8rem ;
+.page-gap {
+    padding: 3rem 8rem 8rem 8rem;
 
-    @media(max-width:768px){
-        padding: 2rem 2rem 2rem 2rem ;
+    @media(max-width:768px) {
+        padding: 2rem 2rem 2rem 2rem;
     }
 }
+
+.update-link {
+    background: #ff714f;
+    padding: 2px 9px;
+    border-radius: 13px;
+    color: #fff; 
+
+    &:hover{
+        background-color: $white;
+        color: $primary;
+    }
+}
+ 

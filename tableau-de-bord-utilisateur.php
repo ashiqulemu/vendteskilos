@@ -183,6 +183,10 @@
                         <div class="card-style bg-white p-4">
                             <h5 class="mb-0 txt-primary jost-bold"> My Profile </h5>
                             <img src="./images/Online Review-pana.svg" alt="" class="img-fluid">
+                            <a href="tableau-de-bord-utilisateur-profile-view.php" class="btn btn-theme d-flex align-items-center justify-content-center">
+                                <iconify-icon class=" fs-5 " icon="fe:eye"></iconify-icon>
+                                <span class=" ms-1">View Profile </span>
+                           </a>
                         </div>
                     </div>
                     <div class="col-lg-9 bg-white card-style p-3">
@@ -197,19 +201,15 @@
                                         <div class="row">
                                             <div class="col-lg-12 mb-3">
                                                 <label for=""> Gender : </label>
-                                                <span class="txt-primary me-3"> <input type="radio" name="gender"
-                                                        id="man" value="man">
+                                                <span class="txt-primary me-3"> <input type="radio" name="gender" id="man" value="man">
                                                     <label for="man">man </label>
                                                 </span>
-                                                <span class="txt-primary me-3"> <input type="radio" name="gender"
-                                                        id="woman" value="woman">
+                                                <span class="txt-primary me-3"> <input type="radio" name="gender" id="woman" value="woman">
                                                     <label for="woman">woman </label></span>
-                                                <span class="txt-primary"><input type="radio" name="gender" id="other"
-                                                        value="other"> <label for="other">I prefer not to say it
+                                                <span class="txt-primary"><input type="radio" name="gender" id="other" value="other"> <label for="other">I prefer not to say it
                                                     </label>
                                                 </span>
-                                            </div>
-
+                                            </div> 
                                             <div class="col-lg-4 mb-3">
                                                 <label for="">First name </label>
                                                 <input type="text" class="form-control">
@@ -264,8 +264,31 @@
                                             </div>
                                             <div class="col-lg-12 mb-3">
                                                 <label for="">Profile Photo</label>
-                                               <input type="file" class="form-control" >
+                                               <input type="file" class="form-control">
                                             </div> 
+                                            
+                                            <div class="col-lg-12 mb-3">
+                                                <label for="">Preference</label> 
+                                            </div> 
+                           
+                                        <div class="row">
+                                            <div class="col-lg-12 ">
+                                                <div class="d-flex alert flex-wrap alert-primary align-items-center">
+                                                    <p class="mb-0"> I Take : </p>
+                                                    <div class="mx-2">
+                                                        <input id="Envelopes" type="checkbox" name="">
+                                                        <label for="Envelopes"> Envelopes </label>
+                                                    </div>
+                                                    <div class="me-2">
+                                                        <input id="Envelopes" type="checkbox" name="">
+                                                        <label for="Envelopes"> Full bags </label>
+                                                    </div>
+                                                    <div class="me-2">
+                                                        <input id="Envelopes" type="checkbox" name="">
+                                                        <label for="Envelopes"> Packages </label>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="col-lg-12 mb-3">
                                                 <label for="">
                                                     <input type="checkbox" name="" id="">
@@ -275,16 +298,20 @@
                                             <div class="col-lg-12">
                                                 <label>Description</label>
                                                 <textarea name="" class="form-control" id=""></textarea>
-                                            </div>
-
-
-
+                                            </div> 
                                             <div class="col-lg-12">
                                                 <button class="btn btn-theme my-4">Enregistrer mes données</button>
                                             </div>
+                                        </div> 
+                                      </div> 
+                                        </form></div>
+                         
+                                    
+                                            </div>  
+                                            
 
-                                        </div>
-                                    </form>
+                                             </div>
+                                   
                                     <hr>
                                     <!-- picture /logo -->
                                     <div class="p-3">
@@ -309,51 +336,7 @@
                                         </div>
                                     </form>
                                     <hr>
-                                    <!-- Preference -->
-                                    <div class="p-3">
-                                        <h5 class="jost-medium  mb-1 txt-primary jost-medium">Preference</h5>
-                                        <p class="mb-2">You have the option of displaying the different categories of
-                                            koli that you wish to transport on your journeys</p>
-                                    </div>
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="col-lg-6 mb-3 ">
-                                                <div class="d-flex alert flex-wrap alert-success align-items-center">
-                                                    <p class="mb-0"> I Take : </p>
-                                                    <div class="mx-2">
-                                                        <input id="Envelopes" type="radio" name="" id="">
-                                                        <label for="Envelopes"> Envelopes </label>
-                                                    </div>
-                                                    <div class="me-2">
-                                                        <input id="Envelopes" type="radio" name="" id="">
-                                                        <label for="Envelopes"> Full bags </label>
-                                                    </div>
-                                                    <div class="me-2">
-                                                        <input id="Envelopes" type="radio" name="" id="">
-                                                        <label for="Envelopes"> Packages </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 mb-3 ">
-                                                <div class="d-flex alert flex-wrap alert-warning align-items-center">
-                                                    <p class="mb-0"> I Dont Take : </p>
-                                                    <div class="mx-2">
-                                                        <input id="Envelopes" type="radio" name="" id="">
-                                                        <label for="Envelopes"> Envelopes </label>
-                                                    </div>
-                                                    <div class="me-2">
-                                                        <input id="Envelopes" type="radio" name="" id="">
-                                                        <label for="Envelopes"> Full bags </label>
-                                                    </div>
-                                                    <div class="me-2">
-                                                        <input id="Envelopes" type="radio" name="" id="">
-                                                        <label for="Envelopes"> Packages </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <hr>
+                                  
                                     <!-- verification -->
                                     <div class="p-3">
                                         <h5 class=" mb-1 txt-primary jost-medium">Verifications</h5>
@@ -417,10 +400,10 @@
                                                     exchanged services at the end of each transaction. Leave comments
                                                     are
                                                     visible here and on their public profile.
-                                                <div class="text-danger alert alert-danger">You have 0 reviews to leave.
+                                                </p><div class="text-danger alert alert-danger">You have 0 reviews to leave.
                                                 </div>
 
-                                                </p>
+                                                <p></p>
                                             </div>
                                         </div>
 
@@ -583,12 +566,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
                 </div>
             </section>
 
@@ -631,102 +608,85 @@
                                         <h5 class="mb-1 txt-primary jost-medium">Propose a new route</h5>
                                     </div>
                                     <form action="">
-                                        <div class="row">
-
-                                            <div class="col-lg-4 mb-3">
+                                        <div class="row"> 
+                                            <div class="col-lg-12 mb-3">
                                                 <label for=""> Kind of transportation </label>
                                                 <select class="form-control" required="">
                                                     <option> options </option>
                                                 </select>
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for=""> Means of transport </label>
-                                                <select class="form-control" required="">
-                                                    <option> options </option>
-                                                </select>
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for="">Transport company </label>
-                                                <select class="form-control" required="">
-                                                    <option> options </option>
-                                                </select>
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for="">Departure city </label>
+                                            </div> 
+                                            <div class="col-lg-3 mb-3">
+                                                <label for="">Departure Country </label>
                                                 <input type="text" class="form-control">
                                             </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for=""> Arrival city </label>
+                                            <div class="col-lg-3 mb-3">
+                                                <label for="">Departure State </label>
                                                 <input type="text" class="form-control">
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
+                                                <label for="">Departure City </label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">Date of departure </label>
                                                 <input type="date" class="form-control">
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+
+                                            <div class="col-lg-3 mb-3">
+                                                <label for=""> Arrival Country </label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-lg-3 mb-3">
+                                                <label for=""> Arrival State </label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-lg-3 mb-3">
+                                                <label for=""> Arrival city </label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-lg-3 mb-3">
                                                 <label for=""> Arrival Date </label>
                                                 <input type="date" class="form-control">
-                                            </div>
+                                            </div> 
+                                          
                                             <div class="col-lg-4 mb-3">
                                                 <label for="">Ticket verification (optional) </label>
                                                 <input type="file" class="form-control">
                                             </div>
+
                                             <div class="col-lg-12">
                                                 <h5 class="my-4 txt-secondary jost-medium">Transportation details</h5>
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">Unity :</label>
                                                 <select class="form-control" required="">
                                                     <option> options </option>
                                                 </select>
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">Quantity available :</label>
                                                 <input type="number" class="form-control">
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">Minimum to book</label>
                                                 <input type="number" class="form-control">
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">Deadline for reservations</label>
                                                 <input type="datetime-local" class="form-control">
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">deposit local</label>
                                                 <input type="text" class="form-control">
                                             </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">Place of delivery</label>
                                                 <input type="text" class="form-control">
                                             </div>
-                                            <div class="col-lg-12">
-                                                <h5 class="my-4 txt-secondary jost-medium">Service pricing ( €/Kg )</h5>
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for="">Currency :</label>
-                                                <select class="form-control" required="">
-                                                    <option> options </option>
-                                                </select>
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for="">Price ( € / Kg ) :</label>
-                                                <select class="form-control" required="">
-                                                    <option> options </option>
-                                                </select>
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-3">
                                                 <label for="">Price in Euro(€)</label>
                                                 <input type="text" class="form-control">
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for="">Booking fee</label>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                            <div class="col-lg-4 mb-3">
-                                                <label for="">Final price (€/Kg)</label>
-                                                <input type="text" class="form-control">
-                                            </div>
+                                            </div> 
                                             <div class="col-lg-12">
                                                 <label for="">
                                                     <input type="checkbox" name="" id="">

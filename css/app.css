@@ -2222,4 +2222,15 @@ label {
   .page-gap {
     padding: 2rem 2rem 2rem 2rem;
   }
+}
+
+.update-link {
+  background: #ff714f;
+  padding: 2px 9px;
+  border-radius: 13px;
+  color: #fff;
+}
+.update-link:hover {
+  background-color: #fff;
+  color: #0065AA;
 }/*# sourceMappingURL=app.css.map */
