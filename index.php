@@ -671,6 +671,195 @@
 
      <!-- Footer -->
      <?php include 'footer.php';?>  
+
+    <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./js/bootstrap-5.bundle.min.js"></script>
+    <script src="./js/iconify.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/slick.min.js" type="text/javascript"></script>
+    <script src="./js/select2.min.js" type="text/javascript"></script>
+    <script src="./js/wow.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript"> 
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        }) 
+        //    animation 
+        new WOW().init(); 
+
+        $(document).ready(function () {
+
+            $('.testimonial').slick({
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                draggable: true,
+                swipeToSlide: true,
+                arrows: false,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            arrows: true,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                ]
+            });
+
+            // box Slider
+
+            $('.slideBox').slick({
+                centerMode: true,
+                centerPadding: '0',
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                draggable: true,
+                swipeToSlide: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            arrows: true,
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                ]
+            });
+
+            // partners
+
+            $('.partners').slick({
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                draggable: true,
+                swipeToSlide: true,
+                arrows: false,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 1,
+
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                ]
+            });
+
+        }); 
+    </script>
+    <script>
+        $("#single").select2({
+            placeholder: "Select a Depart",
+            allowClear: true,
+            selectOnClose: true
+        });
+        $("#multiple").select2({
+            placeholder: "Select a programming language",
+            allowClear: true
+        });
+    </script>
+
+
+</body>
+
+</html>
     
  
 
