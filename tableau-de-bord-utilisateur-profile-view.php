@@ -173,34 +173,12 @@
 
                                              </div>
                                    
-                                    <hr>
-                                    <!-- picture /logo -->
-                                    <div class="p-3">
-                                        <h5 class=" mb-1 txt-primary jost-medium">Profile Photo / Logo</h5>
-                                    </div>
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="col-lg-2 mb-3">
-                                                <img src="./images/user-1.jpg" class="img-fluid rounded-3" alt="">
-                                            </div>
-                                            <div class="col-lg-10 mb-3">
-
-                                                <p class="mb-2 text-muted fs-18 ">Lorem ipsum dolor sit amet consectetur
-                                                    adipisicing elit.
-                                                    Alias deserunt repellat tenetur! Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing elit. Alias deserunt repellat tenetur!</p>
-                                                <input type="file" name="" id="" class="form-control">
-                                                <button class="btn btn-theme my-3">Change Photo</button>
-                                            </div>
-
-
-                                        </div>
-                                    </form>
-                                    <hr>
+                                    
+                                   
                                   
                                     <!-- verification -->
                                     <div class="p-3">
-                                        <h5 class=" mb-1 txt-primary jost-medium">Verifications</h5>
+                                        <h5 class=" my-2 txt-primary jost-medium">Verifications</h5>
                                         <p class="mb-3  text-muted fs-18 ">
                                             Get your profile verified to become a trusted member of our community. You
                                             will find shippers and carriers more easily!
