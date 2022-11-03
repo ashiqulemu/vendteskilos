@@ -300,43 +300,15 @@
                                                 <textarea name="" class="form-control" id=""></textarea>
                                             </div> 
                                             <div class="col-lg-12">
-                                                <button class="btn btn-theme my-4">Enregistrer mes données</button>
+                                                <button class="btn btn-theme my-4">mettre à jour</button>
                                             </div>
                                         </div> 
                                       </div> 
-                                        </form></div>
-                         
-                                    
+                                        </form>
+                                    </div> 
                                             </div>  
-                                            
-
-                                             </div>
-                                   
-                                    <hr>
-                                    <!-- picture /logo -->
-                                    <div class="p-3">
-                                        <h5 class=" mb-1 txt-primary jost-medium">Profile Photo / Logo</h5>
-                                    </div>
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="col-lg-2 mb-3">
-                                                <img src="./images/user-1.jpg" class="img-fluid rounded-3" alt="">
-                                            </div>
-                                            <div class="col-lg-10 mb-3">
-
-                                                <p class="mb-2 text-muted fs-18 ">Lorem ipsum dolor sit amet consectetur
-                                                    adipisicing elit.
-                                                    Alias deserunt repellat tenetur! Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing elit. Alias deserunt repellat tenetur!</p>
-                                                <input type="file" name="" id="" class="form-control">
-                                                <button class="btn btn-theme my-3">Change Photo</button>
-                                            </div>
-
-
-                                        </div>
-                                    </form>
-                                    <hr>
-                                  
+                                             </div> 
+                                    <hr> 
                                     <!-- verification -->
                                     <div class="p-3">
                                         <h5 class=" mb-1 txt-primary jost-medium">Verifications</h5>
