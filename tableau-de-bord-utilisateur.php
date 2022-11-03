@@ -271,7 +271,7 @@
                                                 <label for="">Preference</label> 
                                             </div> 
                            
-                                        <div class="row">
+                                        <div class="row mx-auto">
                                             <div class="col-lg-12 ">
                                                 <div class="d-flex alert flex-wrap alert-primary align-items-center">
                                                     <p class="mb-0"> I Take : </p>
