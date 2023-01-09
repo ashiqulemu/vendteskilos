@@ -549,27 +549,107 @@
                         <div class="card-style bg-white p-4">
                             <h6 class="mb-0 txt-primary jost-bold"> My Trips </h6>
                             <img src="./images/Trip-cuate.svg" alt="" class="img-fluid">
+                            <a href="tableau-de-bord-utilisateur-trips-view.php" class="btn btn-theme d-flex align-items-center justify-content-center">
+                                <iconify-icon class=" fs-5 " icon="fe:eye"></iconify-icon>
+                                <span class=" ms-1">View trips </span>
+                           </a>
                         </div>
                     </div>
                     <div class="col-lg-9 bg-white card-style p-3">
                         <div class="row gx-3">
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
                                     <div class="p-3">
                                         <h5 class="mb-1 txt-primary jost-medium">Current trips</h5>
-                                        <span class="text-muted fs-18 ">Lorem ipsum dolor sit, amet consectetur
+                                        <span class="text-muted fs-18 ">
+                                            Lorem ipsum dolor sit, amet consectetur
                                             adipisicing
                                             elit. Ipsa facilis sed blanditiis!</span>
+                                            <div class="overflowAdjust">
+                                                 <table class="table">
+                                                <thead  class="txt-primary">
+                                                    <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">First</th>
+                                                    <th scope="col">Last</th>
+                                                    <th scope="col">Handle</th>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">First</th>
+                                                    <th scope="col">Last</th>
+                                                    <th scope="col">Handle</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">3</th>
+                                                    <td colspan="2">Larry the Bird</td>
+                                                    <td>@twitter</td>
+                                                    <th scope="row">3</th>
+                                                    <td colspan="2">Larry the Bird</td>
+                                                    <td>@twitter</td>
+                                                    </tr>
+                                                </tbody>
+                                                </table>
+                                           </div>
+                                            
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div style="background-color: #f3f6f9;" class="row shadow-sm mx-auto border">
                                     <div class="p-3">
                                         <h5 class="mb-1 txt-primary jost-medium">Historic Routes</h5>
                                         <span class="text-muted fs-18 ">Lorem ipsum dolor sit, amet consectetur
                                             adipisicing
                                             elit. Ipsa facilis sed blanditiis!</span>
+                                            <table class="table">
+                                                <thead class="txt-primary">
+                                                    <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">First</th>
+                                                    <th scope="col">Last</th>
+                                                    <th scope="col">Handle</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">3</th>
+                                                    <td colspan="2">Larry the Bird</td>
+                                                    <td>@twitter</td>
+                                                    </tr>
+                                                </tbody>
+                                                </table>
                                     </div>
                                 </div>
                             </div>
@@ -706,14 +786,12 @@
                                     <div class="p-3">
                                         <h5 class="mb-1 txt-primary jost-medium">Ongoing expeditions</h5>
                                         <h6 class="txt-secondary"> My expeditions</h6>
-                                        <p class="text-muted fs-18 ">
-
+                                        <p class="text-muted fs-18">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laborum nostrum
                                             repellat facilis rerum voluptatem ut impedit vel est minima, modi vitae
                                             atque.
                                             Dolores, velit!
                                         </p>
-
                                         <div class="alert alert-success">
                                             You have no shipments in progress.
                                         </div>

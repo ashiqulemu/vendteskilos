@@ -1,4 +1,70 @@
 
+
+<div class="preFooter">
+    <div class="container">
+        <div class="row">
+        <a class="navbar-brand text-center" href="index.php">
+              <img src="./images/vendteskilos-white-01-01.svg" class="img-fluid mx-auto  ">
+        </a>
+        <h2 class="jost-bold text-white text-center">
+        Aidez-nous à garder Vendteskilos <br> gratuits pour tout le monde.
+        </h2>
+        <div class="row my-4">
+            <div class="col-lg-8 mx-auto">
+                <div class="row">
+                    <div class="donnation">
+                        <div class="items pt-2">
+                            <div class="pick">
+                             <input type="checkbox">
+                                <label for="">
+                                    €1
+                                </label>
+                            </div>
+                            <div class="pick">
+                             <input type="checkbox">
+                                <label for="">
+                                    €5
+                                </label>
+                            </div>
+                            <div class="pick">
+                             <input type="checkbox">
+                                <label for="">
+                                    €10
+                                </label>
+                            </div>
+                            <div class="pick">
+                             <input type="checkbox">
+                                <label for="">
+                                    €50
+                                </label>
+                            </div>
+                            <div class="pick">
+                             <input type="number" placeholder="montant personnalisé">
+                                <label for="">
+                                €
+                                </label>
+                            </div>
+                        </div>
+                        <div class="items py-1">
+                            <button class="btn-theme w-100 bg-secondary border-0 rounded-3">
+                               <h5 class="m-0"> Continue <iconify-icon icon="mdi:arrow-right"></iconify-icon></h5>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h5 class="jost-bold text-white text-center">
+           Vendteskilos est un service 100% gratuit 
+        </h5>
+        <p class=" text-white text-center fs-18">
+        Aidez-nous à offrir des opportunités aux personnes de tous horizons souhaitant envoyer des colis ou en recevoir à moindre coût.
+        </p>
+        </div>
+    </div>
+</div>
+
+
 <footer class="footer-bg">
         <div class="container">
             <div class="row py-5 col-lg-10 mx-auto">

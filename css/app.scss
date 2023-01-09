@@ -2771,11 +2771,126 @@ label {
     background: #ff714f;
     padding: 2px 9px;
     border-radius: 13px;
-    color: #fff; 
+    color: #fff;
 
-    &:hover{
+    &:hover {
         background-color: $white;
         color: $primary;
     }
 }
- 
+
+.overflowAdjust {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.preFooter {
+    border-top: 8px solid #0086d7;
+    background: #0065AA;
+    padding: 50px 0;
+
+    .navbar-brand {
+        img {
+            width: 260px;
+        }
+    }
+
+    .donnation {
+        display: flex;
+        flex-wrap: wrap;
+
+        .items {
+            column-gap: 10px;
+            flex: 1;
+
+            &:nth-child(1) {
+                flex: 3;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            &:nth-child(2) {
+                flex: 1;
+                display: flex;
+            }
+
+            flex-basis: 30%;
+
+            .pick {
+                position: relative;
+                text-align: center;
+                flex-wrap: wrap;
+                flex-basis: 200px;
+                @media(max-width:600px){
+                    flex-basis: 95% !important;  
+                }
+                &:nth-child(5) {
+                    flex-basis: 409px;
+                    height: 48px;
+                    border: 1px solid #027ccf;
+                    border-radius: 8px;
+                    color: #fff;
+                    background-color: #014f7e;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    label{
+                        left: 18px;
+                        @media(max-width:600px){
+                           left: 10px;
+                        }
+                    }
+                    
+                }
+
+
+                label {
+                    position: absolute;
+                    left: 46%;
+                    top: 12px;
+                    color: #fff;
+                    font-weight: 500; 
+                    font-family: "jost-medium";
+                    
+                    &:focus {
+                        background-color: #FF7947;
+                    }
+                }
+
+                input[type='checkbox'] {
+                    -webkit-appearance: none;
+                    cursor: pointer;
+                    height: 48px;
+                    width: 100%;
+                    border: 1px solid #027ccf;
+                    border-radius: 8px;
+                    color: #fff;
+                    background-color: #014f7e;
+
+                    &:checked+label {
+                        color: #fff;
+
+                    }
+
+                    &:checked {
+                        background: $secondary;
+                    }
+                }
+
+                input[type='number'] {
+                    height: 75%;
+                    width: 90%;
+                    float: right;
+                    border: 0;
+                    outline: 0;
+                    padding-left: 11px;
+                    background: transparent;
+                    color: #fff;
+                    border-left: 1px solid #fff;
+                    vertical-align: middle;
+                }
+
+            }
+        }
+    }
+}

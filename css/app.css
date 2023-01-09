@@ -2233,4 +2233,106 @@ label {
 .update-link:hover {
   background-color: #fff;
   color: #0065AA;
+}
+
+.overflowAdjust {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.preFooter {
+  border-top: 8px solid #0086d7;
+  background: #0065AA;
+  padding: 50px 0;
+}
+.preFooter .navbar-brand img {
+  width: 260px;
+}
+.preFooter .donnation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.preFooter .donnation .items {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  flex: 1;
+  flex-basis: 30%;
+}
+.preFooter .donnation .items:nth-child(1) {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+.preFooter .donnation .items:nth-child(2) {
+  flex: 1;
+  display: flex;
+}
+.preFooter .donnation .items .pick {
+  position: relative;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+}
+@media (max-width: 600px) {
+  .preFooter .donnation .items .pick {
+    flex-basis: 95% !important;
+  }
+}
+.preFooter .donnation .items .pick:nth-child(5) {
+  flex-basis: 409px;
+  height: 48px;
+  border: 1px solid #027ccf;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #014f7e;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.preFooter .donnation .items .pick:nth-child(5) label {
+  left: 18px;
+}
+@media (max-width: 600px) {
+  .preFooter .donnation .items .pick:nth-child(5) label {
+    left: 10px;
+  }
+}
+.preFooter .donnation .items .pick label {
+  position: absolute;
+  left: 46%;
+  top: 12px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "jost-medium";
+}
+.preFooter .donnation .items .pick label:focus {
+  background-color: #FF7947;
+}
+.preFooter .donnation .items .pick input[type=checkbox] {
+  -webkit-appearance: none;
+  cursor: pointer;
+  height: 48px;
+  width: 100%;
+  border: 1px solid #027ccf;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #014f7e;
+}
+.preFooter .donnation .items .pick input[type=checkbox]:checked + label {
+  color: #fff;
+}
+.preFooter .donnation .items .pick input[type=checkbox]:checked {
+  background: #FF7947;
+}
+.preFooter .donnation .items .pick input[type=number] {
+  height: 75%;
+  width: 90%;
+  float: right;
+  border: 0;
+  outline: 0;
+  padding-left: 11px;
+  background: transparent;
+  color: #fff;
+  border-left: 1px solid #fff;
+  vertical-align: middle;
 }/*# sourceMappingURL=app.css.map */
